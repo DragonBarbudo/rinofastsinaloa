@@ -1,0 +1,122 @@
+//- output: index.html, pretty:false
+
+include site/_config.jade
+
++html5
+  +head(title, stylesheets, keywords, description)
+  body    
+    .topbar
+      .container
+        .col12
+          p +52 (667) 715 11 42
+            |   |  
+            a(href="mailto:rinofastculiacan@gmail.com") rinofastculiacan@gmail.com
+
+    header
+      .container
+        .col2
+          a(href="#inicio", data-scroll): img(src="site/img/rinofast.png", alt="")
+        .col8.push2
+          nav: +menu('index', menu, 'horizontal', '#', ' ', '', {'data-scroll':true})
+  
+    +sliderbg('#inicio', 'site/img/inicio.jpg')
+    section#inicio
+      .container#phrase
+        .col6
+          div#p1(data-sr="enter left wait 0.2s") Nunca es tarde
+          div#p2(data-sr="enter right wait 0.6s") para ser lo que soñaste.
+
+    mixin articleService(name, slug)
+      article(role="#{slug}")
+        h2=name
+        a(href="##{slug}") Conocer más 
+          span.fa.fa-angle-right
+
+    section#nosotros
+      .cristal
+        .container
+          .col10.push1
+            h1 Bienvenido a Rinofast Sinaloa
+            hr
+            p Originado en 2011 como una rama de Rinofast México
+    section#servicios
+      .container.w100
+        .col6
+          +articleService('Rinoplastía', 'rinoplastia')
+        .col6
+          .container
+            .col6: +articleService('Cirugía de mentón', 'cirugiadementon')
+            .col6: +articleService('Bichectomía', 'bichectomia')
+          .container
+            .col6: +articleService('Otoplastía', 'otoplastia')
+            .col6: +articleService('Liposucción de cuello', 'liposucciondecuello')
+          .container
+            .col12: +articleService('Blefaroplastía', 'blefaroplastia')
+    section#sobre
+      .container
+        .col6
+          .title Rinofast Sinaloa
+          p Somos un centro de cirugía estética facial con procedimientos innovadores basados en un moderno sistema utilizando los estándares más altos de estética de cara a nivel mundial.
+        .col6
+          .title Nuestra innovación
+          p Con un innovador sistema de cirugía facial usando la técnica por tumescencia creada por el Dr. Héctor Manuel Marín basada en anestesia local para eliminar dolor durante y después del procedimiento quirúrgico equivalente a una visita al dentista.
+      .container
+        .col6
+          .title Rapidez
+          p Nuestro método exclusivo es capaz de corregir problemas estéticos y funcionales de nariz, solamente utilizando anestesia local, con un procedimiento que tarda menos de 3 horas desde que entra hasta que sale de su cirugía.
+      .container
+        .col6
+          .title Recuperación
+          p Gracias a nuestro método nuestros pacientes logran una recuperación de tan sólo 
+            strong 24 a 72 horas
+            | .
+
+    section#contactanos
+      .container
+        .col7.contactanos CONTÁCTANOS
+        .col3.personalizada
+          P TU VALORACIÓN ES <br>
+            strong PERSONALIZADA
+    section#experiencia
+      .cristal
+        .container
+          .col10.push1
+            h2 Experiencia
+            hr
+            p: strong Dr. Ángel Andrés Loaiza León
+            p Médico Especialista en Otorrinalaringología y cirugía de cabeza y cuello, Universidad Nacional Autónoma de México (UNAM) | Cédula: 6880566
+      .container
+        .col6
+          .title Seguridad médica
+          p Actualmente los procedimientos médicos y quirúrgicos conllevan a una gran responsabilidad social y de salud, tanto del médico como del paciente, mismos que el Dr. Loaiza tiene muy claros y precisos. Y cabe mencionar que la Rinoplastía con anestesia local es más segura y quita las complicaciones anestésicas de la Rinoplastía con anestesia general y por sedación.
+        .col6
+          .title Exclusivo
+          p El Dr. Loaiza León cuenta con amplios conocimientos teóricos y prácticos, utilizando más de 50 técnicas para manejo de punta nasal, con lo cual se obtienen miles de resultados diferentes en estilos de nariz, siendo ésta única y exclusiva personalizada al rostro del paciente con un resultado de aspecto natural.
+          a(href="#experienciaMedica", data-scroll) Experiencia Médica 
+            span.fa.fa-angle-right
+    section#innovacion
+      .cristal
+        .container
+          h2 Innovación
+          hr
+      .container
+        .col6.push6
+          .title Rinoplastía por tumescencia
+          p Gracias a nuestro método exclusivo que es capaz de corregir los problemas estéticos y funcionales de nariz, únicamente con anestesia local con un procedimiento que tarda menos de 3 horas desde que entra y hasta que sale de cirugía.
+          p Es un innovador sistema de cirugía facial único en México así como en el estado de Sinaloa que se basa en el uso de anestesia local, para eliminar las complicaciones y costos de la cirugía convencional (anestesia general y por sedación) con el mismo resultado estético y funcional.
+          .title Trabajo de punta nasal
+          p Este paso es el más laborios y básicamente consiste en levantar la punta nasal conocido bajo el término de proyección y definición, mediante la colocación de injertos así como suturas entre los cartílagos nasales, utilizando una variedad de 50 técnicas diferentes con lo cual logramos obtener miles de distintos resultados de nariz acorde al rostro del paciente y con esto lograr una armonía en su estética facial.
+          .title Septoplastía
+          p Este paso consiste en corregir las desviaciones que presenta el cartílago septal siendo posible practicamente todos los tipos de desviaciones tanto anteriores como posteriores incluyendo retiro desviaciones óseas (hueso) sin requerir anestesia general ni uso de taponamientos por la ausencia de sangrado.
+          .title Gibectomía
+          p Consiste en la remoción del cartílago y hueso excedente del dorso nasal que impiden la definición estética de la nariz pudiendo quitar todos los tamaños de gibas (jorobas) por muy prominentes que estas sean.
+      .container
+        .col6
+          .title Reducción de alas nasales
+          p Consiste en disminuir el ancho o tamaño de las fosas nasales, así como la base de la nariz para darle mayor armonía respecto al resto de las estructuras nasales trabajadas previamente (dorso y punta).
+        .col6
+          .title Osteotomías
+          p Consisten en cortes en el hueso nasal selectivamente trazados cuya finalidad es la reducción del ancho nasal en su parte superior y cerrar el dorso nasal cuando se ha realizado una gibectomía.
+
+      
+    +scripts

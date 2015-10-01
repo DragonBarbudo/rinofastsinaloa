@@ -1,0 +1,149 @@
+//- out: style.css
+@import '../../dw/dw.less';
+@import '../../dw/docs.less';
+
+/* ################################ CONTAINER WIDTHS: */
+@containerWidth: 960px;
+@containerWidthTablet: 480px;
+/* ################################ COLORS */
+@b: #4E4E4E;
+@w: #f5f5f5;
+@g: #888;
+@main: #24486B;
+@sec:  #219CD2;
+/* ################################ FONTS */
+.font{ font-family: 'Lato', sans-serif; }
+/* ################################ CLASSES */
+.bgF(@img, @pos: center){
+  background-image: url(@img);
+  background-position: @pos;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cristal{
+  padding: 40px 0;
+  background: fade(@w,94%);
+  font-weight: 300;
+  text-align: center;
+  h1,h2,h3 {
+    font-weight: 300;
+    color:@main;
+    font-size: 2.8em;
+  }
+  p{
+    color: @b;
+    font-size: 1em;
+  }
+}
+hr{
+  border-top: 1px solid @w/1.1;
+  margin: 20px 0;
+}
+/* ################################ GENERAL */
+body{
+  .font;
+}
+
+.topbar{
+  position: relative;
+  z-index: 1;
+  background: fade(@main, 90%);
+  .w100;
+  font-weight: lighter;
+  padding: 6px 0;
+  text-align: right;
+  color:@w;
+  font-size: 0.7em;
+  a{
+    color:@w;
+    text-decoration: none;
+  }
+}
+
+header{
+  background: fade(@w, 90%);
+  .w100;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  z-index: 1;
+  .transition(200ms);
+  nav{
+    margin-top: 10px;
+    ul{
+      li{
+        a{
+          font-size: 0.8em;
+          color:@main;
+          font-weight: lighter;
+          padding: 5px;
+          &:hover{ color:@sec; }
+        }
+        &:last-child{
+          a{
+            background: @main;
+            color:@w;
+            .border-radius(3px);
+            .gradient(#34628E, #5786B4);
+            &:hover{
+              .gradient(@main, @sec);
+            }
+          }
+        }
+      }
+    }
+  }
+  &.stuck{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1000;
+    padding: 8px 0;
+    .transition(1000ms);
+  }
+}
+
+
+#inicio{
+  margin-top: -108px;
+  position: relative;
+  z-index: 0;
+  min-height: 130%;
+  .font;
+  font-weight: 300;
+  #phrase{
+    padding-top: 30%;
+    color:@main;
+    text-align: center;
+    #p1{
+      font-size: 4em;
+    }
+    #p2{
+      font-size: 2.6em;
+    }
+  }
+}
+
+
+
+#nosotros{
+  position: relative;
+  z-index: 1;
+  .cristal{
+    margin-top:-190px;
+  }
+}
+
+
+#servicios{
+  article{
+    height: 340px;
+  }
+  [role="rinoplastia"]{
+    .bgF('../img/role_rinoplastia.jpg');
+    height: 680px;
+  }
+  [role="cirugiadementon"]{ .bgF('../img/role_cirugiadementon.jpg'); }
+  [role="bichectomia"]{ .bgF('../img/role_bichectomia.jpg'); }
+}
