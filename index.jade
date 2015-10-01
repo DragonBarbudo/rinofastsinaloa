@@ -26,32 +26,35 @@ include site/_config.jade
           div#p1(data-sr="enter left wait 0.2s") Nunca es tarde
           div#p2(data-sr="enter right wait 0.6s") para ser lo que soñaste.
 
-    mixin articleService(name, slug)
-      article(role="#{slug}")
-        h2=name
-        a(href="##{slug}") Conocer más 
-          span.fa.fa-angle-right
+    
 
-    section#nosotros
+    section#nosotros(data-sr)
       .cristal
         .container
           .col10.push1
             h1 Bienvenido a Rinofast Sinaloa
             hr
             p Originado en 2011 como una rama de Rinofast México
+    mixin articleService(name, slug)
+      article(role="#{slug}")
+        h2=name
+        a(href="##{slug}") Conocer más 
+          span.fa.fa-angle-right
+            
     section#servicios
       .container.w100
-        .col6
+        
+        .col7(data-sr="enter left wait 0.2s")
+          .slider.multiple
+            div: +articleService('Cirugía de mentón', 'cirugiadementon')
+            div: +articleService('Bichectomía', 'bichectomia')
+            div: +articleService('Otoplastía', 'otoplastia')
+            div: +articleService('Liposucción de cuello', 'liposucciondecuello')
+            div: +articleService('Blefaroplastía', 'blefaroplastia')
+        .col5(data-sr="enter right wait 0.1s")
           +articleService('Rinoplastía', 'rinoplastia')
-        .col6
-          .container
-            .col6: +articleService('Cirugía de mentón', 'cirugiadementon')
-            .col6: +articleService('Bichectomía', 'bichectomia')
-          .container
-            .col6: +articleService('Otoplastía', 'otoplastia')
-            .col6: +articleService('Liposucción de cuello', 'liposucciondecuello')
-          .container
-            .col12: +articleService('Blefaroplastía', 'blefaroplastia')
+        
+    +sliderbg('#sobre', 'site/img/sobre.jpg')
     section#sobre
       .container
         .col6

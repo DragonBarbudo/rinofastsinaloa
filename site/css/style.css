@@ -1071,9 +1071,20 @@ hr {
   border-top: 1px solid #dfdfdf;
   margin: 20px 0;
 }
+.title {
+  font-weight: 300;
+  color: #24486b;
+  font-size: 2.6em;
+}
+p {
+  font-weight: 300;
+  color: #4e4e4e;
+  font-size: 1em;
+}
 /* ################################ GENERAL */
 body {
   font-family: 'Lato', sans-serif;
+  background: #f5f5f5;
 }
 .topbar {
   position: relative;
@@ -1176,14 +1187,58 @@ header.stuck {
   margin-top: -190px;
 }
 #servicios article {
+  position: relative;
   height: 340px;
+}
+#servicios article h2 {
+  color: #24486b;
+  font-size: 1.6em;
+  font-weight: 300;
+  position: absolute;
+  left: 10px;
+  bottom: 32px;
+  z-index: 1;
+}
+#servicios article a {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: #219cd2;
+  text-decoration: none;
+  font-weight: 300;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  z-index: 1;
+}
+#servicios article a:hover {
+  color: #24486b;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+#servicios article:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background: #f5f5f5;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f5f5f5), color-stop(1, rgba(245, 245, 245, 0)));
+  background: -ms-linear-gradient(bottom, #f5f5f5, rgba(245, 245, 245, 0));
+  background: -moz-linear-gradient(center bottom, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+  background: -o-linear-gradient(rgba(245, 245, 245, 0), #f5f5f5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(245, 245, 245, 0)', endColorstr='#f5f5f5', GradientType=0);
+  z-index: 0;
 }
 #servicios [role="rinoplastia"] {
   background-image: url('../img/role_rinoplastia.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 680px;
 }
 #servicios [role="cirugiadementon"] {
   background-image: url('../img/role_cirugiadementon.jpg');
@@ -1196,4 +1251,52 @@ header.stuck {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#servicios [role="otoplastia"] {
+  background-image: url('../img/role_otoplastia.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#servicios [role="liposucciondecuello"] {
+  background-image: url('../img/role_liposucciondecuello.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#servicios [role="blefaroplastia"] {
+  background-image: url('../img/role_blefaroplastia.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#servicios .slick-arrow {
+  background: rgba(245, 245, 245, 0.8);
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #219cd2;
+  width: 30px;
+  height: 30px;
+  font-size: 1.3em;
+  top: 40%;
+}
+#servicios .slick-arrow.slick-prev {
+  left: 20px;
+}
+#servicios .slick-arrow.slick-next {
+  right: 20px;
+}
+#sobre {
+  padding: 200px 0;
+}
+#sobre .container {
+  padding: 100px 0 100px 0;
 }

@@ -246,6 +246,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/role_blefaroplastia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34282,
+		"inputAbbreviatedPath": "\/site\/img\/role_blefaroplastia.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_blefaroplastia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/role_cirugiadementon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -257,6 +268,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/role_liposucciondecuello.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23421,
+		"inputAbbreviatedPath": "\/site\/img\/role_liposucciondecuello.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_liposucciondecuello.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/role_otoplastia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23120,
+		"inputAbbreviatedPath": "\/site\/img\/role_otoplastia.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_otoplastia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/role_rinoplastia.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -264,6 +297,17 @@
 		"initialSize": 27695,
 		"inputAbbreviatedPath": "\/site\/img\/role_rinoplastia.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/role_rinoplastia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/sobre.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109073,
+		"inputAbbreviatedPath": "\/site\/img\/sobre.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/sobre.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

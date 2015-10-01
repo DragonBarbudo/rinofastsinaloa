@@ -40,9 +40,21 @@ hr{
   border-top: 1px solid @w/1.1;
   margin: 20px 0;
 }
+
+.title{
+  font-weight: 300;
+  color:@main;
+  font-size: 2.6em;
+}
+p{
+  font-weight: 300;
+  color: @b;
+  font-size: 1em;
+}
 /* ################################ GENERAL */
 body{
   .font;
+  background: @w;
 }
 
 .topbar{
@@ -138,12 +150,61 @@ header{
 
 #servicios{
   article{
+    position: relative;
     height: 340px;
+    h2{
+      color:@main;
+      font-size: 1.6em; font-weight: 300;
+      position: absolute;
+      left: 10px;
+      bottom: 32px;
+      z-index: 1;
+    }
+    a{
+      position: absolute;
+      left: 10px; bottom: 10px;
+      color:@sec;
+      text-decoration: none;
+      font-weight: 300;
+      .transition(300ms);
+      z-index: 1;
+      &:hover{
+        color:@main;
+        .transition(300ms);
+      }
+    }
+    &:after{
+      content:"";
+      position: absolute;
+      bottom: 0; left: 0;
+      height: 80px; width: 100%;
+      .gradient( @w, fade(@w, 0));
+      z-index: 0;
+    }
   }
-  [role="rinoplastia"]{
-    .bgF('../img/role_rinoplastia.jpg');
-    height: 680px;
-  }
+  [role="rinoplastia"]{ .bgF('../img/role_rinoplastia.jpg'); }
   [role="cirugiadementon"]{ .bgF('../img/role_cirugiadementon.jpg'); }
   [role="bichectomia"]{ .bgF('../img/role_bichectomia.jpg'); }
+  [role="otoplastia"]{ .bgF('../img/role_otoplastia.jpg'); }
+  [role="liposucciondecuello"]{ .bgF('../img/role_liposucciondecuello.jpg'); }
+  [role="blefaroplastia"]{ .bgF('../img/role_blefaroplastia.jpg'); }
+  .slick-arrow{
+    background: fade(@w, 80%);
+    .box-sizing(border-box);
+    .border-radius(50%);
+    color:@sec;
+    width: 30px; height: 30px;
+    font-size: 1.3em;
+    top: 40%;
+    &.slick-prev{left: 20px;}
+    &.slick-next{right: 20px;}
+  }
+}
+
+
+#sobre{
+  padding: 200px 0;
+  .container{
+    padding: 100px 0 100px 0;
+  }
 }
