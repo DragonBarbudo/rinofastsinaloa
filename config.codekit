@@ -153,6 +153,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -204,6 +213,28 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/site\/img\/beneficios.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66139,
+		"inputAbbreviatedPath": "\/site\/img\/beneficios.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/beneficios.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/contactanos_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71930,
+		"inputAbbreviatedPath": "\/site\/img\/contactanos_bg.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/contactanos_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/inicio.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -211,6 +242,17 @@
 		"initialSize": 116644,
 		"inputAbbreviatedPath": "\/site\/img\/inicio.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/inicio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/innovacion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106524,
+		"inputAbbreviatedPath": "\/site\/img\/innovacion.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/innovacion.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

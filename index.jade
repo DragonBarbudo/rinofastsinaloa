@@ -14,17 +14,17 @@ include site/_config.jade
 
     header
       .container
-        .col2
+        .col2.col-t4.push-t4.col-m4.push-m4
           a(href="#inicio", data-scroll): img(src="site/img/rinofast.png", alt="")
-        .col8.push2
+        .col8.push2.col-t12.col-m12.push-t0.push-m0
           nav: +menu('index', menu, 'horizontal', '#', ' ', '', {'data-scroll':true})
   
     +sliderbg('#inicio', 'site/img/inicio.jpg')
     section#inicio
       .container#phrase
-        .col6
-          div#p1(data-sr="enter left wait 0.2s") Nunca es tarde
-          div#p2(data-sr="enter right wait 0.6s") para ser lo que soñaste.
+        .col6.col-t10.col-m10
+          div#p1(data-sr="enter left wait 0.2s  scale down 400%") Nunca es tarde
+          div#p2(data-sr="enter right wait 0.6s  scale down 200%") para ser lo que soñaste.
 
     
 
@@ -44,40 +44,41 @@ include site/_config.jade
     section#servicios
       .container.w100
         
-        .col7(data-sr="enter left wait 0.2s")
+        .col7.col-m12(data-sr="enter left wait 0.2s")
           .slider.multiple
             div: +articleService('Cirugía de mentón', 'cirugiadementon')
             div: +articleService('Bichectomía', 'bichectomia')
             div: +articleService('Otoplastía', 'otoplastia')
             div: +articleService('Liposucción de cuello', 'liposucciondecuello')
             div: +articleService('Blefaroplastía', 'blefaroplastia')
-        .col5(data-sr="enter right wait 0.1s")
+        .col5.col-m12(data-sr="enter right wait 0.1s")
           +articleService('Rinoplastía', 'rinoplastia')
         
     +sliderbg('#sobre', 'site/img/sobre.jpg')
     section#sobre
       .container
-        .col6(data-sr)
+        .col6.col-m12(data-sr)
           .title Rinofast Sinaloa
           p Somos un centro de cirugía estética facial con procedimientos innovadores basados en un moderno sistema utilizando los estándares más altos de estética de cara a nivel mundial.
-        .col6(data-sr)
+        .col6.col-m12(data-sr)
           .title Nuestra innovación
           p Con un innovador sistema de cirugía facial usando la técnica por tumescencia creada por el Dr. Héctor Manuel Marín basada en anestesia local para eliminar dolor durante y después del procedimiento quirúrgico equivalente a una visita al dentista.
       .container
-        .col6(data-sr)
+        .col6.col-m12(data-sr)
           .title Rapidez
           p Nuestro método exclusivo es capaz de corregir problemas estéticos y funcionales de nariz, solamente utilizando anestesia local, con un procedimiento que tarda menos de 3 horas desde que entra hasta que sale de su cirugía.
       .container
-        .col6(data-sr)
+        .col6.col-m12(data-sr)
           .title Recuperación
           p Gracias a nuestro método nuestros pacientes logran una recuperación de tan sólo 
             strong 24 a 72 horas
             | .
 
+    +sliderbg('#contactanos', 'site/img/contactanos_bg.jpg')
     section#contactanos
       .container
-        .col7.contactanos CONTÁCTANOS
-        .col3.personalizada
+        .col7.col-m12.contactanos(data-sr="enter left wait 0.5s") CONTÁCTANOS
+        .col5.col-m12.personalizada(data-sr="enter right scale down 400%")
           P TU VALORACIÓN ES <br>
             strong PERSONALIZADA
     section#experiencia
@@ -89,37 +90,121 @@ include site/_config.jade
             p: strong Dr. Ángel Andrés Loaiza León
             p Médico Especialista en Otorrinalaringología y cirugía de cabeza y cuello, Universidad Nacional Autónoma de México (UNAM) | Cédula: 6880566
       .container
-        .col6
+        .col6.col-m12(data-sr="enter left move 100px")
           .title Seguridad médica
           p Actualmente los procedimientos médicos y quirúrgicos conllevan a una gran responsabilidad social y de salud, tanto del médico como del paciente, mismos que el Dr. Loaiza tiene muy claros y precisos. Y cabe mencionar que la Rinoplastía con anestesia local es más segura y quita las complicaciones anestésicas de la Rinoplastía con anestesia general y por sedación.
-        .col6
+        .col6.col-m12(data-sr="enter right move 100px")
           .title Exclusivo
           p El Dr. Loaiza León cuenta con amplios conocimientos teóricos y prácticos, utilizando más de 50 técnicas para manejo de punta nasal, con lo cual se obtienen miles de resultados diferentes en estilos de nariz, siendo ésta única y exclusiva personalizada al rostro del paciente con un resultado de aspecto natural.
           a(href="#experienciaMedica", data-scroll) Experiencia Médica 
             span.fa.fa-angle-right
+              
+    +sliderbg('#innovacion', 'site/img/innovacion.jpg')
     section#innovacion
       .cristal
         .container
           h2 Innovación
-          hr
       .container
-        .col6.push6
-          .title Rinoplastía por tumescencia
+        .col6.push6.col-m12.push-m0
+          .title(data-sr) Rinoplastía por tumescencia
           p Gracias a nuestro método exclusivo que es capaz de corregir los problemas estéticos y funcionales de nariz, únicamente con anestesia local con un procedimiento que tarda menos de 3 horas desde que entra y hasta que sale de cirugía.
           p Es un innovador sistema de cirugía facial único en México así como en el estado de Sinaloa que se basa en el uso de anestesia local, para eliminar las complicaciones y costos de la cirugía convencional (anestesia general y por sedación) con el mismo resultado estético y funcional.
-          .title Trabajo de punta nasal
+          .title(data-sr) Trabajo de punta nasal
           p Este paso es el más laborios y básicamente consiste en levantar la punta nasal conocido bajo el término de proyección y definición, mediante la colocación de injertos así como suturas entre los cartílagos nasales, utilizando una variedad de 50 técnicas diferentes con lo cual logramos obtener miles de distintos resultados de nariz acorde al rostro del paciente y con esto lograr una armonía en su estética facial.
-          .title Septoplastía
+          .title(data-sr) Septoplastía
           p Este paso consiste en corregir las desviaciones que presenta el cartílago septal siendo posible practicamente todos los tipos de desviaciones tanto anteriores como posteriores incluyendo retiro desviaciones óseas (hueso) sin requerir anestesia general ni uso de taponamientos por la ausencia de sangrado.
-          .title Gibectomía
+          .title(data-sr) Gibectomía
           p Consiste en la remoción del cartílago y hueso excedente del dorso nasal que impiden la definición estética de la nariz pudiendo quitar todos los tamaños de gibas (jorobas) por muy prominentes que estas sean.
       .container
-        .col6
-          .title Reducción de alas nasales
+        .col6.col-m12
+          .title(data-sr) Reducción de alas nasales
           p Consiste en disminuir el ancho o tamaño de las fosas nasales, así como la base de la nariz para darle mayor armonía respecto al resto de las estructuras nasales trabajadas previamente (dorso y punta).
-        .col6
-          .title Osteotomías
+        .col6.col-m12
+          .title(data-sr) Osteotomías
           p Consisten en cortes en el hueso nasal selectivamente trazados cuya finalidad es la reducción del ancho nasal en su parte superior y cerrar el dorso nasal cuando se ha realizado una gibectomía.
+    
+    +sliderbg('#beneficiosIMG', 'site/img/beneficios.jpg')
+    section#beneficios
+      #beneficiosIMG
+        .container
+          .col12: h2 Beneficios
+        .container  
+          .col6.col-m12
+            .icon.fa.fa-check(data-sr="enter top scale down 300%")
+            p(data-sr="enter bottom") Alta calidad en buena ubicación con el equipo necesario para su salud.
+          .col6.col-m12
+            .icon.fa.fa-usd(data-sr="enter top scale down 300%")
+            p(data-sr="enter bottom") Precio más accesible al evitar hospitalización.
+        .container
+          .col6.col-m12
+            .icon.fa.fa-heart(data-sr="enter top scale down 300%")
+            p(data-sr="enter bottom") Anestesia local equivalente a la del dentista, resultando en mínimo sangrado, ultracorta estancia, mínimas complicaciones, menos inflamación, menos hematomas, sin uso de tapones. Mismos resultados que la cirugía convencional.
+          .col6.col-m12
+            .icon.fa.fa-female(data-sr="enter top scale down 300%")
+            p(data-sr="enter bottom") Entrar y salir caminando antes e inmediatamente después de su cirugía sin dolor en menos de 3 hrs desde que entra hasta que sale de la clínica u hospital en el que fue intervenido (operado).
+    
+    section#comparativo
+      .cristal
+        .container
+          h2 Comparativo
+      .container
+        .col5.col-m4.otros
+          h3 Anestecia General
+            div Otros
+        .col2.col-m4 &nbsp;
+        .col5.col-m4.tumescente
+          h3 Anestecia Tumescente
+            div Rinofast
+      .container
+        .col5.col-m4.otros
+          table(data-sr="enter left move 100px")
+            tr: td Moderado a severo
+            tr: td Casi siempre
+            tr: td Casi siempre
+            tr: td Semanas
+            tr: td Ansiedad de moderada a severa
+            tr: td 25 a 45 mil
+            tr: td De 8 a 24 hrs.
+            tr: td Restringidas
+            tr: td 2 o más hrs.
+        .col2.col-m4.middle(data-sr="enter bottom")
+          table
+            tr: td Dolor postoperatorio
+            tr: td Tapones
+            tr: td Hematomas (moretones)
+            tr: td Tiempo de recuperación
+            tr: td Molestias preoperatorias
+            tr: td Costos
+            tr: td Estancia hospitalaria
+            tr: td Actividades
+            tr: td Duración de cirugía
+        .col5.col-m4.tumescente(data-sr="enter right move 100px")
+          table
+            tr: td Escaso o nulo
+            tr: td No
+            tr: td Rara vez
+            tr: td 24 a 72 hrs.
+            tr: td Leve o nada
+            tr: td Mucho menos
+            tr: td 3 horas total (sin hospitalización)
+            tr: td Vida diaria normal
+            tr: td 60 minutos o menos
+    section#contacto
+      .cristal
+        .container
+          h2 Contácto
+          hr
+          .col6.col-m12: p Calle Mariano Escobedo 830 Ote. 4o Piso, Consultorio: 21,<br>Col. Centro, Culiacán, Sinaloa, C.P. 8000 (Frente a Clínica Hospital Culiacán).
+          .col6.col-m12
+            p Tel. +52 (667) 715 11 42
+            p Cel. 044 66 72 300 876
+            p
+              a(href="mailto:dr.angel.loaiza@rinofastsinaloa.com.mx") dr.angel.loaiza@rinofastsinaloa.com.mx 
+              a(href="mailto: rinofastculiacan@gmail.com")  rinofastculiacan@gmail.com
+      .container.mapcont
+        .col6.col-m12
+          | <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3621.674091547323!2d-107.394842!3d24.806611000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcd7527760e73b%3A0x3ca2dba302d94fd0!2sCalle+Carl.+Mariano+Escobedo%2C+Primer+Cuadro%2C+80000+Culiac%C3%A1n+Rosales%2C+Sin.%2C+M%C3%A9xico!5e0!3m2!1ses!2smx!4v1444072015497" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        .col6.col-m12
+          +formSimple('rinofastculiacan@gmail.com', ' rinofastculiacan@gmail.com', 'Nuevo mensaje Rinofastsinaloa.com.mx')
 
-      
     +scripts

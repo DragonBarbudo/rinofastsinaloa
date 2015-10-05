@@ -23,7 +23,7 @@
 
 .cristal{
   padding: 40px 0;
-  background: fade(@w,94%);
+  background: fade(#fff,94%);
   font-weight: 300;
   text-align: center;
   h1,h2,h3 {
@@ -67,6 +67,7 @@ body{
   text-align: right;
   color:@w;
   font-size: 0.7em;
+  p{color:@w;}
   a{
     color:@w;
     text-decoration: none;
@@ -85,6 +86,7 @@ header{
     margin-top: 10px;
     ul{
       li{
+        .col(12/5) !important;
         a{
           font-size: 0.8em;
           color:@main;
@@ -122,6 +124,7 @@ header{
   position: relative;
   z-index: 0;
   min-height: 130%;
+  overflow: hidden;
   .font;
   font-weight: 300;
   #phrase{
@@ -206,5 +209,187 @@ header{
   padding: 200px 0;
   .container{
     padding: 100px 0 100px 0;
+  }
+}
+
+#contactanos{
+  min-height: 380px;
+  margin: 60px 0;
+  overflow: hidden;
+  .contactanos{
+    color:@w;
+    padding: 154px 0;
+    text-align: center;
+    font-size: 3.4em;
+    font-weight: 700;
+  }
+  .personalizada{
+    padding: 154px 0;
+    text-align: center;
+    font-size: 1.8em;
+    p{color:@main;}
+  }
+}
+
+
+#experiencia{
+  margin: 60px 0;
+  padding: 20px 0 20px 0;
+  overflow: hidden;
+  .title{
+    margin: 40px 0 20px 0;
+  }
+  a{
+    display: inline-block;
+    float: right;
+    color:@main;
+    text-decoration: none;
+    text-align: right;
+    margin: 30px 0 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    &:hover{
+      color: @sec;
+    }
+  }
+}
+
+
+#innovacion{
+  .title{
+    margin: 40px 0 20px 0;
+  }
+  p{
+    margin: 20px 0;
+  }
+}
+
+
+#beneficios{
+  text-align: center;
+  background: @sec;
+  overflow: hidden;
+  #beneficiosIMG{
+    width: 100%;
+    padding-top: 600px;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 2.8em;
+    color:@w;
+    padding: 40px 0;
+    text-align: center;
+  }
+  p{
+    color:@w;
+    margin: 30px 0;
+    font-size: 1.2em;
+  }
+  .icon{
+    color:@w;
+    font-size: 4em;
+    margin: 10px 0;
+  }
+}
+
+#comparativo{
+  overflow: hidden;
+  h3{
+    font-weight: 300;
+    color:@main;
+    font-size: 2em;
+    padding: 40px 0;
+    div{
+      color:@g;
+    }
+  }
+
+  table, tr, td{
+    border:none;
+    width: 100% !important;
+  }
+  tr{
+    border-bottom: 2px solid @w/1.1;
+    height: 74px;
+    td{
+      padding: 10px;
+      min-height: 74px;
+      font-size: 1.3em;
+      vertical-align: middle;
+
+    }
+  }
+  .otros{
+    text-align: right;
+    td{text-align: right; color:@g;}
+  }
+  .middle{
+    background: @main;
+    td{text-align: center; font-size: 1em; font-weight: 300; color:@w;}
+  }
+  .tumescente{
+    text-align: left;
+    h3{color:@sec; }
+    td{color:@sec;}
+  }
+}
+
+
+
+#contacto{
+  margin: 60px 0;
+  a{
+    color:@sec;
+    text-decoration: none;
+    &:hover{
+      color:@g;
+    }
+  }
+  .mapcont{
+    padding: 20px 0;
+  }
+  form{
+    label{
+      color:@g;
+      font-weight: 300;
+      font-size: 0.8em;
+      margin: 10px 0 5px 0;
+    }
+    input,textarea{
+      background: @w/1.1;
+      border:none;
+      padding: 10px;
+      font-size: 0.9em;
+      .font;
+      border-bottom: 2px solid @w/1.1;
+      &:focus{
+        border-bottom: 2px solid @sec;
+      }
+    }
+    textarea{
+      height:140px;
+      resize: none;
+    }
+    button{
+      width: 100%;
+      margin: 20px 0;
+      border: 2px solid @sec;
+      color:@sec;
+      background: transparent;
+      .font;
+      padding: 10px;
+      font-size: 1.1em;
+      &:hover{
+        cursor: pointer;
+        background: @sec;
+        color:@w;
+      }
+    }
+    .resultado{
+      .box-sizing(border-box);
+      padding: 10px;
+      text-align: center;
+      color:@sec;
+    }
   }
 }
