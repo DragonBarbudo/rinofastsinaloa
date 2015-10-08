@@ -38,7 +38,7 @@ include site/_config.jade
     mixin articleService(name, slug)
       article(role="#{slug}")
         h2=name
-        a(href="##{slug}") Conocer más 
+        a(href="#innovacion", data-scroll) Conocer más 
           span.fa.fa-angle-right
             
     section#servicios
@@ -96,8 +96,46 @@ include site/_config.jade
         .col6.col-m12(data-sr="enter right move 100px")
           .title Exclusivo
           p El Dr. Loaiza León cuenta con amplios conocimientos teóricos y prácticos, utilizando más de 50 técnicas para manejo de punta nasal, con lo cual se obtienen miles de resultados diferentes en estilos de nariz, siendo ésta única y exclusiva personalizada al rostro del paciente con un resultado de aspecto natural.
-          a(href="#experienciaMedica", data-scroll) Experiencia Médica 
-            span.fa.fa-angle-right
+      .container#experienciaMedica
+        .col9
+          .title Experiencia Médica
+          ul.experienciaul
+            li(data-sr)
+              | Especialidad en Otorrinolaringolog&iacute;a y Cirug&iacute;a de Cabeza y Cuello. 
+              span.at Centro M&eacute;dico Nacional 20 de Noviembre ISSSTE 2007-2011
+              span.where (M&eacute;xico D.F.)
+            li(data-sr)
+              | Certificado por el Consejo Mexicano de Otorrinolaringolog&iacute;a y Cirug&iacute;a de Cabeza y Cuello A.C. 2011 
+              span.where (M&eacute;xico D.F.)
+            li(data-sr)
+              | Pasant&iacute;a en Cirug&iacute;a Pl&aacute;stica Facial, 
+              span.at Cl&iacute;nica LaFont 2010
+              span.where (Bogot&aacute;, Colombia)
+            li(data-sr)
+              | Rotaci&oacute;n formativa en Otorrinolaringolog&iacute;a, 
+              span.at Hospital Ram&oacute;n y Cajal 2010
+              span.where (Madrid, Espa&ntilde;a)
+            li(data-sr)
+              | Fellowship en transtornos respiratorios y del sue&ntilde;o. 
+              span.at Hospital General de M&eacute;xico SSA 2010-2011
+              span.where (M&eacute;xico D.F.)
+            li(data-sr)
+              | Diplomado en rinolog&iacute;a, Cirug&iacute;a Facial y Senos Paranasales, 
+              span.at UNAM 2011
+              span.where (M&eacute;xico D.F.)
+            li(data-sr)
+              | Fellowship en Rinoplast&iacute;a y Cirug&iacute;a Facial de Ultracorta Estancia. 
+              span.at RINOFAST 2011
+              span.where (M&eacute;xico D.F.)
+            li(data-sr)
+              | Miembro del Colegio de Otorrinolaringolog&iacute;a y Cirug&iacute;a de Cabeza y Cuello de Sinaloa 
+              span.where (Sinaloa, M&eacute;xico)
+            li(data-sr)
+              | Miembro de la Sociedad Mexicana de Rinolog&iacute;a y Cirug&iacute;a Facial 
+              span.where (M&eacute;xico 2012)
+        .col3
+          img(src="site/img/drangel.png", alt="Dr. Ángel Andrés Loaiza León").w100.thedr
+
               
     +sliderbg('#innovacion', 'site/img/innovacion.jpg')
     section#innovacion
@@ -189,6 +227,17 @@ include site/_config.jade
             tr: td 3 horas total (sin hospitalización)
             tr: td Vida diaria normal
             tr: td 60 minutos o menos
+    section#galeria
+      .cristal
+        .container
+          h2 Galería Rinofast
+      .container
+        .slider.one
+          - for(var i = 1; i<21; i++ )
+            div: .container
+              .col6.col-m12: a(href="site/img/galeria/#{i}a.jpg", title="Antes").box: img(src="site/img/galeria/#{i}a.jpg", alt="Antes").w100
+              .col6.col-m12: a(href="site/img/galeria/#{i}b.jpg", title="Después").box: img(src="site/img/galeria/#{i}b.jpg", alt="Después").w100
+          
     section#contacto
       .cristal
         .container

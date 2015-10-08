@@ -1119,22 +1119,6 @@ header {
 header nav {
   margin-top: 10px;
 }
-header nav ul li {
-  display: block !important;
-  float: left !important;
-  width: 17.917992% !important;
-  margin: 0 1.041% !important;
-}
-@media only screen and (min-width: 481px) and (max-width: 959px) {
-  header nav ul li {
-    width: 47.91798%;
-  }
-}
-@media only screen and (max-width: 480px) {
-  header nav ul li {
-    width: 97.91796%;
-  }
-}
 header nav ul li a {
   font-size: 0.8em;
   color: #24486b;
@@ -1505,4 +1489,44 @@ header.stuck {
   padding: 10px;
   text-align: center;
   color: #219cd2;
+}
+.experienciaul {
+  list-style-position: inside;
+  list-style-type: square;
+  color: #4e4e4e;
+}
+.experienciaul li {
+  margin: 10px;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+.experienciaul li .at {
+  display: block;
+  color: #24486b;
+}
+.experienciaul li .where {
+  display: block;
+  color: #219cd2;
+}
+.thedr {
+  margin-top: 180px;
+}
+#swipebox-overlay {
+  background: rgba(245, 245, 245, 0.8);
+}
+.slick-arrow {
+  font-size: 3em;
+  background: rgba(245, 245, 245, 0.9);
+  width: 60px;
+  height: 60px;
+  top: 47%;
+}
+.slick-arrow:hover {
+  background: rgba(245, 245, 245, 0.9);
+}
+.fa-caret-left:before {
+  content: "\f104";
+}
+.fa-caret-right:before {
+  content: "\f105";
 }

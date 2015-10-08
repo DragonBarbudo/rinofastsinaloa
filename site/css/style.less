@@ -86,7 +86,6 @@ header{
     margin-top: 10px;
     ul{
       li{
-        .col(12/5) !important;
         a{
           font-size: 0.8em;
           color:@main;
@@ -392,4 +391,47 @@ header{
       color:@sec;
     }
   }
+}
+
+
+.experienciaul{
+  list-style-position: inside;
+  list-style-type: square;
+  color:@b;
+  li{
+    margin: 10px;
+    font-size: 0.9em;
+    font-weight: 300;
+    .at{
+      display: block;
+      color:@main;
+    }
+    .where{
+      display: block;
+      color:@sec;
+    }
+  }
+}
+.thedr{
+  margin-top: 180px;
+}
+
+
+#swipebox-overlay{
+  background: fade(@w, 80%);
+}
+.slick-arrow{
+  font-size: 3em;
+  background: fade(@w, 90%);
+  width: 60px; height: 60px;
+  top: 47%;
+  &:hover{
+    background: fade(@w, 90%);
+  }
+}
+.fa-caret-left:before{
+  content:"\f104";
+}
+.fa-caret-right:before{
+  content:"\f105";
 }
