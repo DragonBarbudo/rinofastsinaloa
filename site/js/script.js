@@ -92,6 +92,17 @@ $(function(){
   /* custom */
 
 
+$('.openD').click(function(e){
+  e.preventDefault();
+  var openthis = $(this).attr('href');
+  $(openthis).animate({left:0}, 300);
+  $('.close').click(function(){
+    console.log(openthis);
+    $(openthis).animate({left:'100%'}, 300);
+  });
+});
+
+
 
 var sticky = new Waypoint.Sticky({
   element: $('header')

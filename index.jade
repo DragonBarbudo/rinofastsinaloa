@@ -1,7 +1,7 @@
 //- output: index.html, pretty:false
 
 include site/_config.jade
-
+include subsections.jade
 +html5
   +head(title, stylesheets, keywords, description)
   body    
@@ -15,7 +15,7 @@ include site/_config.jade
     header
       .container
         .col2.col-t4.push-t4.col-m4.push-m4
-          a(href="#inicio", data-scroll): img(src="site/img/rinofast.png", alt="")
+          a(href="#inicio", data-scroll): img(src="site/img/rinofast.png", alt="Rinofast Sinaloa").logo
         .col8.push2.col-t12.col-m12.push-t0.push-m0
           nav: +menu('index', menu, 'horizontal', '#', ' ', '', {'data-scroll':true})
   
@@ -23,6 +23,7 @@ include site/_config.jade
     section#inicio
       .container#phrase
         .col6.col-t10.col-m10
+          div#plogo(data-sr="enter left scale down 200%"): img(src="site/img/rinofastsinaloa.png", alt="Rinofast Sinaloa")
           div#p1(data-sr="enter left wait 0.2s  scale down 400%") Nunca es tarde
           div#p2(data-sr="enter right wait 0.6s  scale down 200%") para ser lo que soñaste.
 
@@ -40,20 +41,31 @@ include site/_config.jade
         h2=name
         a(href="#innovacion", data-scroll) Conocer más 
           span.fa.fa-angle-right
+    
+    mixin articleServiceBox(name, slug)
+      article(role="#{slug}")
+        h2=name
+        a(href="##{slug}").openD Conocer más 
+          span.fa.fa-angle-right
             
     section#servicios
       .container.w100
         
         .col7.col-m12(data-sr="enter left wait 0.2s")
           .slider.multiple
-            div: +articleService('Cirugía de mentón', 'cirugiadementon')
-            div: +articleService('Bichectomía', 'bichectomia')
-            div: +articleService('Otoplastía', 'otoplastia')
-            div: +articleService('Liposucción de cuello', 'liposucciondecuello')
-            div: +articleService('Blefaroplastía', 'blefaroplastia')
+            div: +articleServiceBox('Mentoplastía', 'cirugiadementon')
+            div: +articleServiceBox('Bichectomía', 'bichectomia')
+            div: +articleServiceBox('Otoplastía', 'otoplastia')
+            div: +articleServiceBox('Liposucción de cuello', 'liposucciondecuello')
+            div: +articleServiceBox('Blefaroplastía', 'blefaroplastia')
         .col5.col-m12(data-sr="enter right wait 0.1s")
-          +articleService('Rinoplastía', 'rinoplastia')
-        
+          +articleServiceBox('Rinoplastía', 'rinoplastia')
+    +subsections
+    
+    
+    
+    
+
     +sliderbg('#sobre', 'site/img/sobre.jpg')
     section#sobre
       .container

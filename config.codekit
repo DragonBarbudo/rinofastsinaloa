@@ -153,15 +153,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -690,7 +681,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 73968,
+		"initialSize": 70774,
 		"inputAbbreviatedPath": "\/site\/img\/inicio.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/inicio.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -715,6 +706,17 @@
 		"initialSize": 5004,
 		"inputAbbreviatedPath": "\/site\/img\/rinofast.png",
 		"outputAbbreviatedPath": "\/site\/img\/rinofast.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinofastsinaloa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2208,
+		"inputAbbreviatedPath": "\/site\/img\/rinofastsinaloa.png",
+		"outputAbbreviatedPath": "\/site\/img\/rinofastsinaloa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -817,6 +819,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
+		},
+	"\/subsections.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/subsections.jade",
+		"outputAbbreviatedPath": "\/subsections.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
 		}
 	},
 "hooks": [

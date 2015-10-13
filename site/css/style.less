@@ -82,6 +82,7 @@ header{
   position: relative;
   z-index: 1;
   .transition(200ms);
+  .logo{.opacity(0); .transition(300ms); }
   nav{
     margin-top: 10px;
     ul{
@@ -114,6 +115,7 @@ header{
     z-index: 1000;
     padding: 8px 0;
     .transition(1000ms);
+    .logo{.opacity(1); .transition(300ms); }
   }
 }
 
@@ -127,9 +129,12 @@ header{
   .font;
   font-weight: 300;
   #phrase{
-    padding-top: 30%;
+    padding-top: 20%;
     color:@main;
     text-align: center;
+    #plogo{
+      margin-top: 80px;
+    }
     #p1{
       font-size: 4em;
     }
@@ -435,3 +440,67 @@ header{
 .fa-caret-right:before{
   content:"\f105";
 }
+
+
+
+
+
+
+.fullD{
+  position: fixed;
+  background: @sec;
+  color:@w;
+  left: 100%; right: 0;
+  top: 0; bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+
+  .bg{
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    .opacity(0.2);
+    z-index: 0;
+  }
+  .close{
+    margin: 20px;
+    float: right;
+    z-index: 1;
+    color:@main;
+    font-size: 1.2em;
+    &:hover{
+      cursor: pointer;
+      color:@w;
+    }
+  }
+  .container{position: relative; z-index: 1; overflow-y: auto}
+  h2, h3, h4{
+    font-weight: 300;
+    color:@main;
+    font-size: 2.6em;
+    margin: 20px 0;
+  }
+  h2{text-align: center;}
+  h3{ font-size: 1.6em; }
+  h4{ font-size: 1.3em; color:@w; margin: 10px 0; }
+  p{
+    color:@w;
+    margin:10px 0;
+  }
+  ul{
+    list-style-position: inside;
+    list-style-type: square;
+    font-weight: 300;
+  }
+  &#rinoplastia .bg{ .bgF('../img/role_rinoplastia.jpg');   }
+  &#cirugiadementon .bg{ .bgF('../img/role_cirugiadementon.jpg'); }
+  &#bichectomia .bg{ .bgF('../img/role_bichectomia.jpg'); }
+  &#otoplastia .bg{ .bgF('../img/role_otoplastia.jpg'); }
+  &#liposucciondecuello .bg{ .bgF('../img/role_liposucciondecuello.jpg'); }
+  &#blefaroplastia .bg{ .bgF('../img/role_blefaroplastia.jpg'); }
+
+
+
+
+}
+.center{text-align: center;}
