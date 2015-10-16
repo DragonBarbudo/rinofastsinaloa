@@ -69,14 +69,15 @@ $(function(){
     $('.slider.one').slick({
       prevArrow: '<button class="slick-prev fa fa-caret-left"></button>',
       nextArrow: '<button class="slick-next fa fa-caret-right"></button>',
-      autoplay: true
+      autoplay: false
     });
   }
+
   if($('.slider.multiple, .slider.multiplebox').length>0){
     $('.slider.multiple, .slider.multiplebox').slick({
       prevArrow: '<button class="slick-prev fa fa-caret-left"></button>',
       nextArrow: '<button class="slick-next fa fa-caret-right"></button>',
-      autoplay: true,
+      autoplay: false,
       slidesToShow: 3,
       slidesToScroll: 3,
       responsive: [
@@ -85,6 +86,9 @@ $(function(){
       ]
     });
   }
+
+
+
       /*################################################*/
     /*################################################*/
   /*################################################*/

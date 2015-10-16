@@ -153,6 +153,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -688,11 +697,33 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/inicio_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113482,
+		"inputAbbreviatedPath": "\/site\/img\/inicio_2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/inicio_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/inicio_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117082,
+		"inputAbbreviatedPath": "\/site\/img\/inicio_3.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/inicio_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/innovacion.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 106524,
+		"initialSize": 76931,
 		"inputAbbreviatedPath": "\/site\/img\/innovacion.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/innovacion.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -732,6 +763,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/role_bioplastia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22321,
+		"inputAbbreviatedPath": "\/site\/img\/role_bioplastia.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_bioplastia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/role_blefaroplastia.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -739,6 +781,17 @@
 		"initialSize": 34282,
 		"inputAbbreviatedPath": "\/site\/img\/role_blefaroplastia.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/role_blefaroplastia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/role_botox.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29914,
+		"inputAbbreviatedPath": "\/site\/img\/role_botox.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_botox.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -754,6 +807,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/role_dermosustencion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24990,
+		"inputAbbreviatedPath": "\/site\/img\/role_dermosustencion.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_dermosustencion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/role_hialuronico.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25075,
+		"inputAbbreviatedPath": "\/site\/img\/role_hialuronico.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_hialuronico.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/role_liposucciondecuello.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -765,6 +840,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/role_noquirurgicos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19103,
+		"inputAbbreviatedPath": "\/site\/img\/role_noquirurgicos.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_noquirurgicos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/role_otoplastia.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -772,6 +858,17 @@
 		"initialSize": 23120,
 		"inputAbbreviatedPath": "\/site\/img\/role_otoplastia.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/role_otoplastia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/role_quirurgicos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24776,
+		"inputAbbreviatedPath": "\/site\/img\/role_quirurgicos.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/role_quirurgicos.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

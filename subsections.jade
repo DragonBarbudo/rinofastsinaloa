@@ -1,116 +1,164 @@
 mixin subsections
-  section.fullD#rinoplastia
-    .bg
-    .close: i.fa.fa-times
-    .container
-      .col6
+
+  +sliderbg('#rinoplastia', 'site/img/innovacion.jpg')
+  section#rinoplastia
+    .cristal
+      .container
         h2 Rinoplastía
-        h4 Descripción
-        p Es una técnica que consiste en aplicar de forma gradual y cuidadosa, una solución en la diversas porciones de la nariz de manera que provoca la total anestesia y un mínimo de sangrado durante la cirugía, a esto se le conoce como tumescencia.  Gracias a esta técnica, la cirugía se hace más segura, rediciendo tiempo quirúrgico, tiempo de recuperación y así evitando los riesgos de la anestesia general.  Permitiendo hacer una cirugía completa de nariz en sus diversas partes como:
-        p <strong>Septoplastia:</strong> Consiste en corregir las desviaciones que presenta el cartílago y hueso septal, siendo posible corregir todos los tipos de desviaciones tanto anteriores como posteriores sin requerir uso de tapones.
-        p <strong>Gibectomia:</strong> Reducción de cartílago y hueso excedente del dorso (joroba nasal) que deforma la nariz, pudiendo quitar todos los tamaños de gibas.
-        p <strong>Punta nasal:</strong> Levantar y definir la punta nasal a través de la colocación de injertos y suturas en diversas formas.
-        p <strong>Osteotomias:</strong> Modificación de los huesos nasales selectivamente para reducir narices anchas en la parte superior.
-      .col6
-        h3 Cirugía de naríz por tumescencia sin tapones, sin dolor.
-        h4 Objetivo
-        ul
-          li Mejorar la función y estética de la nariz
-          li Edad
-          li A partir de los 16 años
-          li Tiempo de cirugía: 60 minutos
-          li Tiempo de recuperación: 24 hrs
+    .container.rinos
+      .col6.push6.col-m12.push-m0
+        .title(data-sr) Rinoplastía por tumescencia
+        p Gracias a nuestro método exclusivo que es capaz de corregir los problemas estéticos y funcionales de nariz, únicamente con anestesia local con un procedimiento que tarda menos de 3 horas desde que entra y hasta que sale de cirugía.
+        p Es un innovador sistema de cirugía facial único en México así como en el estado de Sinaloa que se basa en el uso de anestesia local, para eliminar las complicaciones y costos de la cirugía convencional (anestesia general y por sedación) con el mismo resultado estético y funcional.
+        .title(data-sr) Trabajo de punta nasal
+        p Este paso es el más laborios y básicamente consiste en levantar la punta nasal conocido bajo el término de proyección y definición, mediante la colocación de injertos así como suturas entre los cartílagos nasales, utilizando una variedad de 50 técnicas diferentes con lo cual logramos obtener miles de distintos resultados de nariz acorde al rostro del paciente y con esto lograr una armonía en su estética facial.
+        .title(data-sr) Septoplastía
+        p Este paso consiste en corregir las desviaciones que presenta el cartílago septal siendo posible practicamente todos los tipos de desviaciones tanto anteriores como posteriores incluyendo retiro desviaciones óseas (hueso) sin requerir anestesia general ni uso de taponamientos por la ausencia de sangrado.
+        .title(data-sr) Gibectomía
+        p Consiste en la remoción del cartílago y hueso excedente del dorso nasal que impiden la definición estética de la nariz pudiendo quitar todos los tamaños de gibas (jorobas) por muy prominentes que estas sean.
+      .col6.col-m12
+        .title(data-sr) Reducción de alas nasales
+        p Consiste en disminuir el ancho o tamaño de las fosas nasales, así como la base de la nariz para darle mayor armonía respecto al resto de las estructuras nasales trabajadas previamente (dorso y punta).
+      .col6.col-m12
+        .title(data-sr) Osteotomías
+        p Consisten en cortes en el hueso nasal selectivamente trazados cuya finalidad es la reducción del ancho nasal en su parte superior y cerrar el dorso nasal cuando se ha realizado una gibectomía.
   
-  section.fullD#blefaroplastia
-    .bg
-    .close: i.fa.fa-times
+  
+  section#quirurgicos
+    .cristal
+      .container
+        h2 Procedimientos estéticos quirúrgicos
     .container
-      .col6
-        h2 Blefaroplastía
-        h4 Descripción
-        p Consiste en quitar el exceso de piel de los párpados con o sin extracción de las bolsas de grasa.
-      .col6
-        h3 Cirugía de párpados/bolsas de los ojos.
-        h4 Objetivo
-        p Refrescar la mirada, quitar la apariencia de cansancio tanto en hombres como en mujeres. 
-        p También se realiza con el propósito de hacer el ojo más grande luciendo una mirada más atractiva.  Otro objetivo es abrir el campo visual y mejorar la visión en pacientes con piel redundante que impide una visión adecuada.
-        ul
-          li Edad
-          li A partir de los 18 años
-          li Tiempo de cirugía
-          li Sólo parpados superiores: 20 minutos
-          li Sólo párpados superiores e inferiores: 30 minutos
-          li Tiempo de recuperación: 48 hrs
-
-
-  section.fullD#otoplastia
-    .bg
-    .close: i.fa.fa-times
+      .col10.push1
+        .slider.one.noAuto
+            div: section.fullD#blefaroplastia
+              .cristal: .container
+                  h2 Blefaroplastía
+                  hr
+                  h3 Cirugía de párpados/bolsas de los ojos.
+              .container
+                .col10.push1
+                  h4 Descripción
+                  p Consiste en quitar el exceso de piel de los párpados con o sin extracción de las bolsas de grasa.          
+                  h4 Objetivo
+                  p Refrescar la mirada, quitar la apariencia de cansancio tanto en hombres como en mujeres. 
+                  p También se realiza con el propósito de hacer el ojo más grande luciendo una mirada más atractiva.  Otro objetivo es abrir el campo visual y mejorar la visión en pacientes con piel redundante que impide una visión adecuada.
+                  ul
+                    li Edad
+                    li A partir de los 18 años
+                    li Tiempo de cirugía
+                    li Sólo parpados superiores: 20 minutos
+                    li Sólo párpados superiores e inferiores: 30 minutos
+                    li Tiempo de recuperación: 48 hrs
+            div: section.fullD#otoplastia
+              .cristal: .container
+                h2 Otoplastía
+                hr
+                h3 Corrección de orejas
+              .container
+                .col10.push1
+                  h4 Descripción
+                  p Consiste en la corrección de la forma de las orejas cuando estas se encuentran despegadas.
+                  h4 Objetivo
+                  p Es Estético, aumentando la autoestima del paciente, evitando traumas psicológicos sobre todo en niños.
+                  ul
+                    li Edad
+                    li Esta cirugía puede realizarse a partir de los 9 años cuando la oreja alcanza su desarrollo total.
+                    li Tiempo de cirugía 45 minutos
+                    li Tiempo de recuperación: 24 hrs
+            div: section.fullD#cirugiadementon
+              .cristal: .container
+                h2 Mentoplastía
+                hr
+                h3 Aumento del mentón
+              .container
+                .col10.push1
+                  h4 Descripción
+                  p Colocación de un implante sólido o prótesis a través de incisiones mínimas.
+                  h4 Objetivo
+                  p Aumentar la proyección del mentón logrando un perfil armónico.
+                  ul
+                    li Edad
+                    li A partir de los 15 años.
+                    li Tiempo de Cirugía: 5 a 20 minutos
+                    li Tiempo de recuperación: 24 hrs
+            div: section.fullD#bichectomia
+              .cristal: .container
+                h2 Bichectomía
+                hr
+                h3 Perfilar el contorno facial a nivel de las mejillas con fines estéticos.
+              .container
+                .col10.push1          
+                  h4 Descripción
+                  p Las bolsas de Bichat son depósitos de grasa dentro de las mejillas, estas pueden dar la apariencia de un rostro redondeado en algunas personas.
+                  h4 Objetivo
+                  p Aumentar la proyección del mentón logrando un perfil armónico.
+                  ul
+                    li Edad
+                    li A partir de los 15 años.
+                    li Tiempo de Cirugía: 5 a 20 minutos
+                    li Tiempo de recuperación: 24 hrs
+            div: section.fullD#liposucciondecuello
+              .cristal: .container
+                h2 Liposucción del cuello
+                hr
+                h3 Define el reborde mandibular y mentón.
+              .container
+                .col10.push1
+                  h4 Descripción
+                  p Retirar a través de un sistema de succión y cánulas finas el exceso de grasa localizada en la región najo la mandíbula y alta del cuello.
+                  h4 Objetivo
+                  p Aumentar la proyección del mentón logrando un perfil armónico.
+                  ul
+                    li Edad
+                    li A partir de los 15 años.
+                    li Tiempo de Cirugía: 20 a 30 minutos
+                    li Tiempo de recuperación: 24 hrs
+  
+  section#noquirurgicos
+    .cristal
+      .container
+        h2 Procedimientos estéticos no quirúrgicos
     .container
-      .col6
-        h2 Otoplastía
-        h4 Descripción
-        p Consiste en la corrección de la forma de las orejas cuando estas se encuentran despegadas.
-      .col6
-        h3 Corrección de orejas
-        h4 Objetivo
-        p Es Estético, aumentando la autoestima del paciente, evitando traumas psicológicos sobre todo en niños.
-        ul
-          li Edad
-          li Esta cirugía puede realizarse a partir de los 9 años cuando la oreja alcanza su desarrollo total.
-          li Tiempo de cirugía 45 minutos
-          li Tiempo de recuperación: 24 hrs
+      .col10.push1
+        .slider.one.noAuto
+            div: section.fullD#bioplastia
+              .cristal: .container
+                  h2 Bioplastía facial
+                  hr
+                  h3 Lifting líquido
+              .container
+                .col10.push1
+                  h4 Descripción
+                  p Se conoce como el rejuvenecimiento facial sin cirugía, es una técnica que consiste en la restauración de volúmenes, remodelación facial con implantes de relleno biocompatibles.
 
-  section.fullD#cirugiadementon
-    .bg
-    .close: i.fa.fa-times
-    .container
-      .col6
-        h2 Mentoplastía
-        h4 Descripción
-        p Colocación de un implante sólido o prótesis a través de incisiones mínimas.
-      .col6
-        h3 Aumento del mentón
-        h4 Objetivo
-        p Aumentar la proyección del mentón logrando un perfil armónico.
-        ul
-          li Edad
-          li A partir de los 15 años.
-          li Tiempo de Cirugía: 5 a 20 minutos
-          li Tiempo de recuperación: 24 hrs
-
-  section.fullD#bichectomia
-    .bg
-    .close: i.fa.fa-times
-    .container
-      .col6
-        h2 Bichectomía
-        h4 Descripción
-        p Las bolsas de Bichat son depósitos de grasa dentro de las mejillas, estas pueden dar la apariencia de un rostro redondeado en algunas personas.
-      .col6
-        h3 Perfilar el contorno facial a nivel de las mejillas con fines estéticos.
-        h4 Objetivo
-        p Aumentar la proyección del mentón logrando un perfil armónico.
-        ul
-          li Edad
-          li A partir de los 15 años.
-          li Tiempo de Cirugía: 5 a 20 minutos
-          li Tiempo de recuperación: 24 hrs
-
-  section.fullD#liposucciondecuello
-    .bg
-    .close: i.fa.fa-times
-    .container
-      .col6
-        h2 Liposucción del cuello
-        h4 Descripción
-        p Retirar a través de un sistema de succión y cánulas finas el exceso de grasa localizada en la región najo la mandíbula y alta del cuello.
-      .col6
-        h3 Dar una apariencia más juvenil a la cara y definir el reborde mandibular y mentón.
-        h4 Objetivo
-        p Aumentar la proyección del mentón logrando un perfil armónico.
-        ul
-          li Edad
-          li A partir de los 15 años.
-          li Tiempo de Cirugía: 20 a 30 minutos
-          li Tiempo de recuperación: 24 hrs
+            div: section.fullD#hialuronico
+              .cristal: .container
+                  h2 Ácido hialurónico
+                  hr
+                  h3 (Rellenos)
+              .container
+                .col10.push1
+                  h4 Descripción
+                  p Es una sustancia biocompatible con nuestro organismo, ya que se encuentra de forma natural en nuestros tejidos. Su principal función es la hidratación de la piel y el aumento de volúmen cuando las cantidades de esta han disminuído sus niveles con el paso de los años.
+                  h4 Zona de aplicación frecuentes
+                  p Contornos, comisuras y volúmen de labios, volúmen facial en pómulos; surcos nasogeneanos, mentón, arrugas periorbiculares y en secuela de acné.
+                  
+            div: section.fullD#botox
+              .cristal: .container
+                  h2 Botox
+                  hr
+                  h3 Toxina botulínica del tipo "A"
+              .container
+                .col10.push1
+                  h4 Descripción
+                  p Sustancia utilizada para el rejuvenecimiento facial. Se aplica en los músculos causantes de las línea de expresión, relajándolos y manteniendo una expresión de manera natural, fresca y jóven.
+            div: section.fullD#dermosustencion
+              .cristal: .container
+                  h2 Hilos de dermosustención
+                  hr
+                  h3 Técnica quirúrgica mínimamente invasiva
+              .container
+                .col10.push1
+                  h4 Descripción
+                  p Consiste en introducir hilos especiales en las zonas de amyor flacidez en nuestra cara para realizar tracción y producir un efecto de lifting facial de forma natural.

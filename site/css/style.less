@@ -83,6 +83,7 @@ header{
   z-index: 1;
   .transition(200ms);
   .logo{.opacity(0); .transition(300ms); }
+
   nav{
     margin-top: 10px;
     ul{
@@ -94,6 +95,7 @@ header{
           padding: 5px;
           &:hover{ color:@sec; }
         }
+        /*
         &:last-child{
           a{
             background: @main;
@@ -105,6 +107,7 @@ header{
             }
           }
         }
+        */
       }
     }
   }
@@ -155,7 +158,11 @@ header{
 }
 
 
-#servicios{
+#procedimientos{
+  padding: 60px 0;
+  .cristal{
+    margin-bottom: 60px;
+  }
   article{
     position: relative;
     height: 340px;
@@ -190,6 +197,9 @@ header{
     }
   }
   [role="rinoplastia"]{ .bgF('../img/role_rinoplastia.jpg'); }
+  [role="quirurgicos"]{ .bgF('../img/role_quirurgicos.jpg'); }
+  [role="noquirurgicos"]{ .bgF('../img/role_noquirurgicos.jpg'); }
+
   [role="cirugiadementon"]{ .bgF('../img/role_cirugiadementon.jpg'); }
   [role="bichectomia"]{ .bgF('../img/role_bichectomia.jpg'); }
   [role="otoplastia"]{ .bgF('../img/role_otoplastia.jpg'); }
@@ -447,32 +457,9 @@ header{
 
 
 .fullD{
-  position: fixed;
-  background: @sec;
-  color:@w;
-  left: 100%; right: 0;
-  top: 0; bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-
-  .bg{
-    position: absolute;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
-    .opacity(0.2);
-    z-index: 0;
-  }
-  .close{
-    margin: 20px;
-    float: right;
-    z-index: 1;
-    color:@main;
-    font-size: 1.2em;
-    &:hover{
-      cursor: pointer;
-      color:@w;
-    }
-  }
+  position: relative;
+  background: @w;
+  color:@main;
   .container{position: relative; z-index: 1; overflow-y: auto}
   h2, h3, h4{
     font-weight: 300;
@@ -482,9 +469,9 @@ header{
   }
   h2{text-align: center;}
   h3{ font-size: 1.6em; }
-  h4{ font-size: 1.3em; color:@w; margin: 10px 0; }
+  h4{ font-size: 1.3em; color:@sec; margin: 10px 0; }
   p{
-    color:@w;
+    color:@main;
     margin:10px 0;
   }
   ul{
@@ -492,15 +479,39 @@ header{
     list-style-type: square;
     font-weight: 300;
   }
-  &#rinoplastia .bg{ .bgF('../img/role_rinoplastia.jpg');   }
-  &#cirugiadementon .bg{ .bgF('../img/role_cirugiadementon.jpg'); }
-  &#bichectomia .bg{ .bgF('../img/role_bichectomia.jpg'); }
-  &#otoplastia .bg{ .bgF('../img/role_otoplastia.jpg'); }
-  &#liposucciondecuello .bg{ .bgF('../img/role_liposucciondecuello.jpg'); }
-  &#blefaroplastia .bg{ .bgF('../img/role_blefaroplastia.jpg'); }
+  &#cirugiadementon .cristal{ .bgF('../img/role_cirugiadementon.jpg');}
+  &#bichectomia .cristal{ .bgF('../img/role_bichectomia.jpg'); }
+  &#otoplastia .cristal{ .bgF('../img/role_otoplastia.jpg'); }
+  &#liposucciondecuello .cristal{ .bgF('../img/role_liposucciondecuello.jpg'); }
+  &#blefaroplastia .cristal{ .bgF('../img/role_blefaroplastia.jpg'); }
 
+  &#bioplastia .cristal{ .bgF('../img/role_bioplastia.jpg'); }
+  &#hialuronico .cristal{ .bgF('../img/role_hialuronico.jpg'); }
+  &#botox .cristal{ .bgF('../img/role_botox.jpg'); }
+  &#dermosustencion .cristal{ .bgF('../img/role_dermosustencion.jpg'); }
 
-
+  .cristal{
+    padding: 100px 0 40px 0;
+    position: relative;
+    &:after{
+      content:"";
+      position: absolute;
+      bottom: 0; left: 0;
+      height: 100%; width: 100%;
+      .gradient( @w, fade(@w, 20%));
+      z-index: 0;
+    }
+  }
 
 }
 .center{text-align: center;}
+
+.rinos{
+  padding: 40px 0;
+  .title{margin-top: 40px; }
+}
+
+
+#quirurgicos, #noquirurgicos{
+  padding: 60px 0;
+}

@@ -16,10 +16,10 @@ include subsections.jade
       .container
         .col2.col-t4.push-t4.col-m4.push-m4
           a(href="#inicio", data-scroll): img(src="site/img/rinofast.png", alt="Rinofast Sinaloa").logo
-        .col8.push2.col-t12.col-m12.push-t0.push-m0
+        .col10.push0.col-t12.col-m12.push-t0.push-m0
           nav: +menu('index', menu, 'horizontal', '#', ' ', '', {'data-scroll':true})
   
-    +sliderbg('#inicio', 'site/img/inicio.jpg')
+    +sliderbg('#inicio', 'site/img/inicio.jpg', 'site/img/inicio_2.jpg', 'site/img/inicio_3.jpg')
     section#inicio
       .container#phrase
         .col6.col-t10.col-m10
@@ -36,31 +36,7 @@ include subsections.jade
             h1 Bienvenido a Rinofast Sinaloa
             hr
             p Originado en 2011 como una rama de Rinofast México
-    mixin articleService(name, slug)
-      article(role="#{slug}")
-        h2=name
-        a(href="#innovacion", data-scroll) Conocer más 
-          span.fa.fa-angle-right
     
-    mixin articleServiceBox(name, slug)
-      article(role="#{slug}")
-        h2=name
-        a(href="##{slug}").openD Conocer más 
-          span.fa.fa-angle-right
-            
-    section#servicios
-      .container.w100
-        
-        .col7.col-m12(data-sr="enter left wait 0.2s")
-          .slider.multiple
-            div: +articleServiceBox('Mentoplastía', 'cirugiadementon')
-            div: +articleServiceBox('Bichectomía', 'bichectomia')
-            div: +articleServiceBox('Otoplastía', 'otoplastia')
-            div: +articleServiceBox('Liposucción de cuello', 'liposucciondecuello')
-            div: +articleServiceBox('Blefaroplastía', 'blefaroplastia')
-        .col5.col-m12(data-sr="enter right wait 0.1s")
-          +articleServiceBox('Rinoplastía', 'rinoplastia')
-    +subsections
     
     
     
@@ -85,14 +61,16 @@ include subsections.jade
           p Gracias a nuestro método nuestros pacientes logran una recuperación de tan sólo 
             strong 24 a 72 horas
             | .
+            
 
     +sliderbg('#contactanos', 'site/img/contactanos_bg.jpg')
     section#contactanos
       .container
-        .col7.col-m12.contactanos(data-sr="enter left wait 0.5s") CONTÁCTANOS
-        .col5.col-m12.personalizada(data-sr="enter right scale down 400%")
-          P TU VALORACIÓN ES <br>
-            strong PERSONALIZADA
+        a(data-scroll, href="#contacto")
+          .col7.col-m12.contactanos(data-sr="enter left wait 0.5s") CONTÁCTANOS
+          .col5.col-m12.personalizada(data-sr="enter right scale down 400%")
+            P TU VALORACIÓN ES <br>
+              strong PERSONALIZADA
     section#experiencia
       .cristal
         .container
@@ -148,31 +126,45 @@ include subsections.jade
         .col3
           img(src="site/img/drangel.png", alt="Dr. Ángel Andrés Loaiza León").w100.thedr
 
-              
-    +sliderbg('#innovacion', 'site/img/innovacion.jpg')
-    section#innovacion
+
+
+    section#procedimientos
       .cristal
         .container
-          h2 Innovación
-      .container
-        .col6.push6.col-m12.push-m0
-          .title(data-sr) Rinoplastía por tumescencia
-          p Gracias a nuestro método exclusivo que es capaz de corregir los problemas estéticos y funcionales de nariz, únicamente con anestesia local con un procedimiento que tarda menos de 3 horas desde que entra y hasta que sale de cirugía.
-          p Es un innovador sistema de cirugía facial único en México así como en el estado de Sinaloa que se basa en el uso de anestesia local, para eliminar las complicaciones y costos de la cirugía convencional (anestesia general y por sedación) con el mismo resultado estético y funcional.
-          .title(data-sr) Trabajo de punta nasal
-          p Este paso es el más laborios y básicamente consiste en levantar la punta nasal conocido bajo el término de proyección y definición, mediante la colocación de injertos así como suturas entre los cartílagos nasales, utilizando una variedad de 50 técnicas diferentes con lo cual logramos obtener miles de distintos resultados de nariz acorde al rostro del paciente y con esto lograr una armonía en su estética facial.
-          .title(data-sr) Septoplastía
-          p Este paso consiste en corregir las desviaciones que presenta el cartílago septal siendo posible practicamente todos los tipos de desviaciones tanto anteriores como posteriores incluyendo retiro desviaciones óseas (hueso) sin requerir anestesia general ni uso de taponamientos por la ausencia de sangrado.
-          .title(data-sr) Gibectomía
-          p Consiste en la remoción del cartílago y hueso excedente del dorso nasal que impiden la definición estética de la nariz pudiendo quitar todos los tamaños de gibas (jorobas) por muy prominentes que estas sean.
-      .container
-        .col6.col-m12
-          .title(data-sr) Reducción de alas nasales
-          p Consiste en disminuir el ancho o tamaño de las fosas nasales, así como la base de la nariz para darle mayor armonía respecto al resto de las estructuras nasales trabajadas previamente (dorso y punta).
-        .col6.col-m12
-          .title(data-sr) Osteotomías
-          p Consisten en cortes en el hueso nasal selectivamente trazados cuya finalidad es la reducción del ancho nasal en su parte superior y cerrar el dorso nasal cuando se ha realizado una gibectomía.
+          h2 Procedimientos
+        
+      mixin articleService(name, slug)
+        article(role="#{slug}")
+          h2=name
+          a(href="##{slug}", data-scroll) Conocer más 
+            span.fa.fa-angle-right
+      
+      mixin articleServiceBox(name, slug)
+        article(role="#{slug}")
+          h2=name
+          a(href="##{slug}").openD Conocer más 
+            span.fa.fa-angle-right
+            
+      .container.w100
+        .col4.col-m12(data-sr="enter left")
+          +articleService('Rinoplastía', 'rinoplastia')
+        .col4.col-m12(data-sr="enter top")
+          +articleService('Estéticos Quirúrgicos', 'quirurgicos')
+        .col4.col-m12(data-sr="enter right")
+          +articleService('Estéticos No Quirúrgicos', 'noquirurgicos')
+        
+        //.col7.col-m12(data-sr="enter left wait 0.2s")
+          .slider.multiple
+            div: +articleService('Mentoplastía', 'cirugiadementon')
+            div: +articleService('Bichectomía', 'bichectomia')
+            div: +articleService('Otoplastía', 'otoplastia')
+            div: +articleService('Liposucción de cuello', 'liposucciondecuello')
+            div: +articleService('Blefaroplastía', 'blefaroplastia')
+        
+    +subsections
     
+    
+          
     +sliderbg('#beneficiosIMG', 'site/img/beneficios.jpg')
     section#beneficios
       #beneficiosIMG
