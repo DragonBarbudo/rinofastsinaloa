@@ -15,7 +15,7 @@ include subsections.jade
     header
       .container
         .col2.col-t4.push-t4.col-m4.push-m4
-          a(href="#inicio", data-scroll): img(src="site/img/rinofast.png", alt="Rinofast Sinaloa").logo
+          a(href="#inicio", data-scroll): img(src="site/img/rinofast.png", alt="Rinofast Sinaloa").logo.nomobile
         .col10.push0.col-t12.col-m12.push-t0.push-m0
           nav: +menu('index', menu, 'horizontal', '#', ' ', '', {'data-scroll':true})
   
@@ -87,8 +87,11 @@ include subsections.jade
           .title Exclusivo
           p El Dr. Loaiza León cuenta con amplios conocimientos teóricos y prácticos, utilizando más de 50 técnicas para manejo de punta nasal, con lo cual se obtienen miles de resultados diferentes en estilos de nariz, siendo ésta única y exclusiva personalizada al rostro del paciente con un resultado de aspecto natural.
       .container#experienciaMedica
-        .col9
-          .title Experiencia Médica
+        .col12: .title Experiencia Médica
+        .col5
+          img(src="site/img/drangel.png", alt="Dr. Ángel Andrés Loaiza León").w100.thedr
+        .col7
+          
           ul.experienciaul
             li(data-sr)
               | Especialidad en Otorrinolaringolog&iacute;a y Cirug&iacute;a de Cabeza y Cuello. 
@@ -123,8 +126,7 @@ include subsections.jade
             li(data-sr)
               | Miembro de la Sociedad Mexicana de Rinolog&iacute;a y Cirug&iacute;a Facial 
               span.where (M&eacute;xico 2012)
-        .col3
-          img(src="site/img/drangel.png", alt="Dr. Ángel Andrés Loaiza León").w100.thedr
+        
 
 
 
@@ -205,7 +207,6 @@ include subsections.jade
             tr: td Casi siempre
             tr: td Semanas
             tr: td Ansiedad de moderada a severa
-            tr: td 25 a 45 mil
             tr: td De 8 a 24 hrs.
             tr: td Restringidas
             tr: td 2 o más hrs.
@@ -216,7 +217,6 @@ include subsections.jade
             tr: td Hematomas (moretones)
             tr: td Tiempo de recuperación
             tr: td Molestias preoperatorias
-            tr: td Costos
             tr: td Estancia hospitalaria
             tr: td Actividades
             tr: td Duración de cirugía
@@ -227,7 +227,6 @@ include subsections.jade
             tr: td Rara vez
             tr: td 24 a 72 hrs.
             tr: td Leve o nada
-            tr: td Mucho menos
             tr: td 3 horas total (sin hospitalización)
             tr: td Vida diaria normal
             tr: td 60 minutos o menos
@@ -256,7 +255,7 @@ include subsections.jade
               a(href="mailto: rinofastculiacan@gmail.com")  rinofastculiacan@gmail.com
       .container.mapcont
         .col6.col-m12
-          | <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3621.674091547323!2d-107.394842!3d24.806611000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcd7527760e73b%3A0x3ca2dba302d94fd0!2sCalle+Carl.+Mariano+Escobedo%2C+Primer+Cuadro%2C+80000+Culiac%C3%A1n+Rosales%2C+Sin.%2C+M%C3%A9xico!5e0!3m2!1ses!2smx!4v1444072015497" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          | <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d752.6146319651715!2d-107.38500397625506!3d24.807196714481602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1445552910679" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         .col6.col-m12
           +formSimple('rinofastculiacan@gmail.com', ' rinofastculiacan@gmail.com', 'Nuevo mensaje Rinofastsinaloa.com.mx')
 

@@ -785,8 +785,8 @@ form.simple textarea {
   margin-top: -10px;
   position: absolute;
   border: none;
-  background: #24486b;
-  color: #4e4e4e;
+  background: #24486B;
+  color: #4E4E4E;
   z-index: 10;
 }
 .slick-arrow.slick-prev {
@@ -797,8 +797,8 @@ form.simple textarea {
 }
 .slick-arrow:hover {
   cursor: pointer;
-  background: #4e4e4e;
-  color: #24486b;
+  background: #4E4E4E;
+  color: #24486B;
 }
 /* backstretch */
 .bgslider {
@@ -821,10 +821,10 @@ body.docs ul {
 body.docs p.small,
 body.docs ul.small {
   font-size: 0.8em;
-  color: #888888;
+  color: #888;
 }
 body.docs h4 {
-  border-top: 1px solid #888888;
+  border-top: 1px solid #888;
   padding-top: 4px;
   padding-bottom: 4px;
   margin-top: 30px;
@@ -841,7 +841,7 @@ body.docs ul.list li:before {
   width: 1.4em;
   content: "\f192";
   line-height: 1.4em;
-  color: #24486b;
+  color: #24486B;
   -webkit-animation-name: waiting;
   -webkit-animation-duration: 2s;
   -webkit-transform-origin: 50% 50%;
@@ -855,12 +855,12 @@ body.docs header {
   left: 0;
   padding: 10px 0 10px 0;
   z-index: 10;
-  background: #24486b;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #24486b), color-stop(1, #2b5680));
-  background: -ms-linear-gradient(bottom, #24486b, #2b5680);
-  background: -moz-linear-gradient(center bottom, #24486b 0%, #2b5680 100%);
-  background: -o-linear-gradient(#2b5680, #24486b);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b5680', endColorstr='#24486b', GradientType=0);
+  background: #24486B;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #24486B), color-stop(1, #2b5680));
+  background: -ms-linear-gradient(bottom, #24486B, #2b5680);
+  background: -moz-linear-gradient(center bottom, #24486B 0%, #2b5680 100%);
+  background: -o-linear-gradient(#2b5680, #24486B);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b5680', endColorstr='#24486B', GradientType=0);
 }
 body.docs header h1 {
   font-size: 3em;
@@ -909,29 +909,29 @@ body.docs #documentacion nav.main li:before {
   display: none;
 }
 body.docs #documentacion nav.main .listMain > li > a.btn {
-  background: #24486b;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #24486b), color-stop(1, #2b5680));
-  background: -ms-linear-gradient(left, #24486b, #2b5680);
-  background: -moz-linear-gradient(left top, #24486b 0%, #2b5680 100%);
-  background: -o-linear-gradient(left, #2b5680, #24486b);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b5680', endColorstr='#24486b', GradientType=1);
+  background: #24486B;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #24486B), color-stop(1, #2b5680));
+  background: -ms-linear-gradient(left, #24486B, #2b5680);
+  background: -moz-linear-gradient(left top, #24486B 0%, #2b5680 100%);
+  background: -o-linear-gradient(left, #2b5680, #24486B);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b5680', endColorstr='#24486B', GradientType=1);
   -webkit-transition: all all 300ms ease-out;
   -moz-transition: all all 300ms ease-out;
   -o-transition: all all 300ms ease-out;
   transition: all all 300ms ease-out;
 }
 body.docs #documentacion nav.main .listMain > li > a.btn:hover {
-  background: #4e4e4e;
+  background: #4E4E4E;
   -webkit-transition: all all 500ms ease-out;
   -moz-transition: all all 500ms ease-out;
   -o-transition: all all 500ms ease-out;
   transition: all all 500ms ease-out;
   background: #5b5b5b;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #5b5b5b), color-stop(1, #4e4e4e));
-  background: -ms-linear-gradient(left, #5b5b5b, #4e4e4e);
-  background: -moz-linear-gradient(left top, #5b5b5b 0%, #4e4e4e 100%);
-  background: -o-linear-gradient(left, #4e4e4e, #5b5b5b);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e4e4e', endColorstr='#5b5b5b', GradientType=1);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #5b5b5b), color-stop(1, #4E4E4E));
+  background: -ms-linear-gradient(left, #5b5b5b, #4E4E4E);
+  background: -moz-linear-gradient(left top, #5b5b5b 0%, #4E4E4E 100%);
+  background: -o-linear-gradient(left, #4E4E4E, #5b5b5b);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4E4E4E', endColorstr='#5b5b5b', GradientType=1);
 }
 body.docs #documentacion nav.main .listSub {
   margin-left: 30px;
@@ -953,7 +953,7 @@ body.docs #documentacion #usage h3 {
 .grid {
   padding: 10px 0;
   font-size: 0.8em;
-  color: #888888;
+  color: #888;
   text-align: center;
 }
 code {
@@ -971,33 +971,33 @@ code {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background: #2b5680;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #2b5680), color-stop(1, #24486b));
-  background: -ms-linear-gradient(left, #2b5680, #24486b);
-  background: -moz-linear-gradient(left top, #2b5680 0%, #24486b 100%);
-  background: -o-linear-gradient(left, #24486b, #2b5680);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24486b', endColorstr='#2b5680', GradientType=1);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #2b5680), color-stop(1, #24486B));
+  background: -ms-linear-gradient(left, #2b5680, #24486B);
+  background: -moz-linear-gradient(left top, #2b5680 0%, #24486B 100%);
+  background: -o-linear-gradient(left, #24486B, #2b5680);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24486B', endColorstr='#2b5680', GradientType=1);
 }
 .t .t {
-  background: #4e4e4e;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4e4e4e), color-stop(1, #343434));
-  background: -ms-linear-gradient(left, #4e4e4e, #343434);
-  background: -moz-linear-gradient(left top, #4e4e4e 0%, #343434 100%);
-  background: -o-linear-gradient(left, #343434, #4e4e4e);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#343434', endColorstr='#4e4e4e', GradientType=1);
+  background: #4E4E4E;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4E4E4E), color-stop(1, #343434));
+  background: -ms-linear-gradient(left, #4E4E4E, #343434);
+  background: -moz-linear-gradient(left top, #4E4E4E 0%, #343434 100%);
+  background: -o-linear-gradient(left, #343434, #4E4E4E);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#343434', endColorstr='#4E4E4E', GradientType=1);
 }
 .t .t .t {
   background: #2b5680;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #2b5680), color-stop(1, #24486b));
-  background: -ms-linear-gradient(left, #2b5680, #24486b);
-  background: -moz-linear-gradient(left top, #2b5680 0%, #24486b 100%);
-  background: -o-linear-gradient(left, #24486b, #2b5680);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24486b', endColorstr='#2b5680', GradientType=1);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #2b5680), color-stop(1, #24486B));
+  background: -ms-linear-gradient(left, #2b5680, #24486B);
+  background: -moz-linear-gradient(left top, #2b5680 0%, #24486B 100%);
+  background: -o-linear-gradient(left, #24486B, #2b5680);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24486B', endColorstr='#2b5680', GradientType=1);
 }
 .hljs {
-  background: #4e4e4e !important;
+  background: #4E4E4E !important;
 }
 .hljs-tag {
-  color: #24486b;
+  color: #24486B;
 }
 table {
   font-size: 0.8em;
@@ -1008,18 +1008,18 @@ table th {
   padding: 5px 10px;
 }
 table th {
-  color: #4e4e4e;
+  color: #4E4E4E;
   font-weight: bold;
   text-align: center;
   background: #2b5680;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2b5680), color-stop(1, #24486b));
-  background: -ms-linear-gradient(bottom, #2b5680, #24486b);
-  background: -moz-linear-gradient(center bottom, #2b5680 0%, #24486b 100%);
-  background: -o-linear-gradient(#24486b, #2b5680);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24486b', endColorstr='#2b5680', GradientType=0);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2b5680), color-stop(1, #24486B));
+  background: -ms-linear-gradient(bottom, #2b5680, #24486B);
+  background: -moz-linear-gradient(center bottom, #2b5680 0%, #24486B 100%);
+  background: -o-linear-gradient(#24486B, #2b5680);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24486B', endColorstr='#2b5680', GradientType=0);
 }
 .active {
-  background: #24486b;
+  background: #24486B;
 }
 .mt10 {
   margin-top: 10px;
@@ -1032,7 +1032,7 @@ code {
 }
 .seccionEspaciadora {
   min-height: 200px;
-  border: 2px dashed #888888;
+  border: 2px dashed #888;
   padding: 20px;
   text-align: center;
   margin: 10px 0;
@@ -1040,7 +1040,7 @@ code {
 .seccionScroll {
   padding: 20px;
   text-align: center;
-  border: 1px solid #24486b;
+  border: 1px solid #24486B;
   margin: 10px 0;
 }
 /* ################################ CONTAINER WIDTHS: */
@@ -1060,11 +1060,11 @@ code {
 .cristal h2,
 .cristal h3 {
   font-weight: 300;
-  color: #24486b;
+  color: #24486B;
   font-size: 2.8em;
 }
 .cristal p {
-  color: #4e4e4e;
+  color: #4E4E4E;
   font-size: 1em;
 }
 hr {
@@ -1073,12 +1073,12 @@ hr {
 }
 .title {
   font-weight: 300;
-  color: #24486b;
+  color: #24486B;
   font-size: 2.6em;
 }
 p {
   font-weight: 300;
-  color: #4e4e4e;
+  color: #4E4E4E;
   font-size: 1em;
 }
 /* ################################ GENERAL */
@@ -1128,6 +1128,9 @@ header .logo {
   -o-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
 }
+header a[href="#inicio"] {
+  background: transparent !important;
+}
 header nav {
   margin-top: 10px;
 }
@@ -1146,14 +1149,63 @@ header nav ul li {
         }
         */
 }
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+  header nav ul li {
+    display: block !important;
+    float: left !important;
+    width: 31.25132% !important;
+    margin: 0 1.041% !important;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) and only screen and (min-width: 481px) and (max-width: 959px) {
+  header nav ul li {
+    width: 47.91798%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) and only screen and (max-width: 480px) {
+  header nav ul li {
+    width: 97.91796%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  header nav ul li {
+    display: block !important;
+    float: left !important;
+    width: 47.91798% !important;
+    margin: 0 1.041% !important;
+  }
+}
+@media only screen and (max-width: 480px) and only screen and (min-width: 481px) and (max-width: 959px) {
+  header nav ul li {
+    width: 47.91798%;
+  }
+}
+@media only screen and (max-width: 480px) and only screen and (max-width: 480px) {
+  header nav ul li {
+    width: 97.91796%;
+  }
+}
 header nav ul li a {
   font-size: 0.8em;
-  color: #24486b;
+  color: #24486B;
   font-weight: lighter;
   padding: 5px;
 }
-header nav ul li a:hover {
-  color: #219cd2;
+header nav ul li a:hover,
+header nav ul li a.active {
+  background: #24486B;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #24486B), color-stop(1, #219CD2));
+  background: -ms-linear-gradient(bottom, #24486B, #219CD2);
+  background: -moz-linear-gradient(center bottom, #24486B 0%, #219CD2 100%);
+  background: -o-linear-gradient(#219CD2, #24486B);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#219CD2', endColorstr='#24486B', GradientType=0);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #f5f5f5;
 }
 header.stuck {
   position: fixed;
@@ -1189,7 +1241,7 @@ header.stuck .logo {
 }
 #inicio #phrase {
   padding-top: 20%;
-  color: #24486b;
+  color: #24486B;
   text-align: center;
 }
 #inicio #phrase #plogo {
@@ -1219,7 +1271,7 @@ header.stuck .logo {
   height: 340px;
 }
 #procedimientos article h2 {
-  color: #24486b;
+  color: #24486B;
   font-size: 1.6em;
   font-weight: 300;
   position: absolute;
@@ -1231,7 +1283,7 @@ header.stuck .logo {
   position: absolute;
   left: 10px;
   bottom: 10px;
-  color: #219cd2;
+  color: #219CD2;
   text-decoration: none;
   font-weight: 300;
   -webkit-transition: all 300ms ease-out;
@@ -1241,7 +1293,7 @@ header.stuck .logo {
   z-index: 1;
 }
 #procedimientos article a:hover {
-  color: #24486b;
+  color: #24486B;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   -o-transition: all 300ms ease-out;
@@ -1322,7 +1374,7 @@ header.stuck .logo {
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #219cd2;
+  color: #219CD2;
   width: 30px;
   height: 30px;
   font-size: 1.3em;
@@ -1358,7 +1410,7 @@ header.stuck .logo {
   font-size: 1.8em;
 }
 #contactanos .personalizada p {
-  color: #24486b;
+  color: #24486B;
 }
 #experiencia {
   margin: 60px 0;
@@ -1371,7 +1423,7 @@ header.stuck .logo {
 #experiencia a {
   display: inline-block;
   float: right;
-  color: #24486b;
+  color: #24486B;
   text-decoration: none;
   text-align: right;
   margin: 30px 0 0 0;
@@ -1379,7 +1431,7 @@ header.stuck .logo {
   font-weight: 300;
 }
 #experiencia a:hover {
-  color: #219cd2;
+  color: #219CD2;
 }
 #innovacion .title {
   margin: 40px 0 20px 0;
@@ -1389,7 +1441,7 @@ header.stuck .logo {
 }
 #beneficios {
   text-align: center;
-  background: #219cd2;
+  background: #219CD2;
   overflow: hidden;
 }
 #beneficios #beneficiosIMG {
@@ -1418,12 +1470,12 @@ header.stuck .logo {
 }
 #comparativo h3 {
   font-weight: 300;
-  color: #24486b;
+  color: #24486B;
   font-size: 2em;
   padding: 40px 0;
 }
 #comparativo h3 div {
-  color: #888888;
+  color: #888;
 }
 #comparativo table,
 #comparativo tr,
@@ -1446,10 +1498,10 @@ header.stuck .logo {
 }
 #comparativo .otros td {
   text-align: right;
-  color: #888888;
+  color: #888;
 }
 #comparativo .middle {
-  background: #24486b;
+  background: #24486B;
 }
 #comparativo .middle td {
   text-align: center;
@@ -1461,26 +1513,26 @@ header.stuck .logo {
   text-align: left;
 }
 #comparativo .tumescente h3 {
-  color: #219cd2;
+  color: #219CD2;
 }
 #comparativo .tumescente td {
-  color: #219cd2;
+  color: #219CD2;
 }
 #contacto {
   margin: 60px 0;
 }
 #contacto a {
-  color: #219cd2;
+  color: #219CD2;
   text-decoration: none;
 }
 #contacto a:hover {
-  color: #888888;
+  color: #888;
 }
 #contacto .mapcont {
   padding: 20px 0;
 }
 #contacto form label {
-  color: #888888;
+  color: #888;
   font-weight: 300;
   font-size: 0.8em;
   margin: 10px 0 5px 0;
@@ -1496,7 +1548,7 @@ header.stuck .logo {
 }
 #contacto form input:focus,
 #contacto form textarea:focus {
-  border-bottom: 2px solid #219cd2;
+  border-bottom: 2px solid #219CD2;
 }
 #contacto form textarea {
   height: 140px;
@@ -1505,8 +1557,8 @@ header.stuck .logo {
 #contacto form button {
   width: 100%;
   margin: 20px 0;
-  border: 2px solid #219cd2;
-  color: #219cd2;
+  border: 2px solid #219CD2;
+  color: #219CD2;
   background: transparent;
   font-family: 'Lato', sans-serif;
   padding: 10px;
@@ -1514,7 +1566,7 @@ header.stuck .logo {
 }
 #contacto form button:hover {
   cursor: pointer;
-  background: #219cd2;
+  background: #219CD2;
   color: #f5f5f5;
 }
 #contacto form .resultado {
@@ -1524,12 +1576,12 @@ header.stuck .logo {
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
-  color: #219cd2;
+  color: #219CD2;
 }
 .experienciaul {
   list-style-position: inside;
   list-style-type: square;
-  color: #4e4e4e;
+  color: #4E4E4E;
 }
 .experienciaul li {
   margin: 10px;
@@ -1538,14 +1590,14 @@ header.stuck .logo {
 }
 .experienciaul li .at {
   display: block;
-  color: #24486b;
+  color: #24486B;
 }
 .experienciaul li .where {
   display: block;
-  color: #219cd2;
+  color: #219CD2;
 }
 .thedr {
-  margin-top: 180px;
+  margin-top: 60px;
 }
 #swipebox-overlay {
   background: rgba(245, 245, 245, 0.8);
@@ -1569,7 +1621,7 @@ header.stuck .logo {
 .fullD {
   position: relative;
   background: #f5f5f5;
-  color: #24486b;
+  color: #24486B;
 }
 .fullD .container {
   position: relative;
@@ -1580,7 +1632,7 @@ header.stuck .logo {
 .fullD h3,
 .fullD h4 {
   font-weight: 300;
-  color: #24486b;
+  color: #24486B;
   font-size: 2.6em;
   margin: 20px 0;
 }
@@ -1592,11 +1644,11 @@ header.stuck .logo {
 }
 .fullD h4 {
   font-size: 1.3em;
-  color: #219cd2;
+  color: #219CD2;
   margin: 10px 0;
 }
 .fullD p {
-  color: #24486b;
+  color: #24486B;
   margin: 10px 0;
 }
 .fullD ul {

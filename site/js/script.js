@@ -110,8 +110,28 @@ $('.openD').click(function(e){
 
 var sticky = new Waypoint.Sticky({
   element: $('header')
-})
+});
+
+state('inicio');
+state('nosotros');
+state('experiencia');
+state('procedimientos');
+state('beneficios');
+state('galeria');
+state('contacto');
+
+
 
 
 
 }); // JQUERY END
+
+
+function state(what){
+  $('#'+what).waypoint(function(){
+      console.log(what);
+      $('.active').removeClass('active');
+      $('[href="#'+what+'"]').addClass('active');
+      history.replaceState( {} , 'foo', '#'+what );
+  }, {offset:'100px'});
+}

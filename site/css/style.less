@@ -82,18 +82,24 @@ header{
   position: relative;
   z-index: 1;
   .transition(200ms);
-  .logo{.opacity(0); .transition(300ms); }
-
+  .logo{.opacity(0); .transition(300ms);  }
+  a[href="#inicio"]{ background: transparent !important; }
   nav{
     margin-top: 10px;
     ul{
       li{
+        @media @tablet{ .col(4) !important; }
+        @media @mobile{ .col(6) !important; }
         a{
           font-size: 0.8em;
           color:@main;
           font-weight: lighter;
           padding: 5px;
-          &:hover{ color:@sec; }
+          &:hover, &.active{
+            .gradient(@main, @sec);
+            .border-radius(3px);
+            color:@w;
+          }
         }
         /*
         &:last-child{
@@ -428,7 +434,7 @@ header{
   }
 }
 .thedr{
-  margin-top: 180px;
+  margin-top: 60px;
 }
 
 
