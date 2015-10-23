@@ -113,7 +113,7 @@ var sticky = new Waypoint.Sticky({
 });
 
 state('inicio');
-state('nosotros');
+//state('nosotros');
 state('experiencia');
 state('procedimientos');
 state('beneficios');
@@ -121,7 +121,7 @@ state('galeria');
 state('contacto');
 
 
-$('#video').waypoint(function(){
+$('#nosotros').waypoint(function(){
   $('#video video').get(0).play();
   console.log('video!');
 });
