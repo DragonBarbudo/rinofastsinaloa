@@ -61,6 +61,7 @@ body{
   position: relative;
   z-index: 1;
   background: fade(@main, 90%);
+  padding: 5px 0;
   .w100;
   font-weight: lighter;
   padding: 6px 0;
@@ -69,8 +70,17 @@ body{
   font-size: 0.7em;
   p{color:@w;}
   a{
+    display: inline-block;
     color:@w;
     text-decoration: none;
+    margin: 0 10px;
+    &:hover{
+      color: @sec;
+    }
+  }
+  span{
+    display: inline-block;
+    margin: 0 10px;
   }
 }
 
