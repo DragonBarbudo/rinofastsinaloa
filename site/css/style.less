@@ -61,13 +61,13 @@ body{
   position: relative;
   z-index: 1;
   background: fade(@main, 90%);
-  padding: 5px 0;
+  padding: 8px 0;
   .w100;
   font-weight: lighter;
   padding: 6px 0;
   text-align: right;
   color:@w;
-  font-size: 0.7em;
+  font-size: 0.8em;
   p{color:@w;}
   a{
     display: inline-block;
@@ -530,4 +530,37 @@ header{
 
 #quirurgicos, #noquirurgicos{
   padding: 60px 0;
+}
+
+
+footer{
+  margin: 40px 0 0 0;
+  width: 100%;
+  background: @main;
+  padding: 25px 0;
+  text-align: right;
+  border-top: 1px solid @sec;
+  nav{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 0.9em;
+    @media @mobile, @tablet{
+
+    }
+    ul{
+      li{
+        @media @tablet{.col(4) !important; padding: 10px 0;}
+        @media @mobile{.col(6) !important; padding: 15px 0;}
+        a{
+
+          color:@w
+        }
+      }
+    }
+  }
+  img{
+    width: 100%;
+  }
 }

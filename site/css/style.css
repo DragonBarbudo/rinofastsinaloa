@@ -1090,13 +1090,13 @@ body {
   position: relative;
   z-index: 1;
   background: rgba(36, 72, 107, 0.9);
-  padding: 5px 0;
+  padding: 8px 0;
   width: 100%;
   font-weight: lighter;
   padding: 6px 0;
   text-align: right;
   color: #f5f5f5;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 .topbar p {
   color: #f5f5f5;
@@ -1751,4 +1751,63 @@ header.stuck .logo {
 #quirurgicos,
 #noquirurgicos {
   padding: 60px 0;
+}
+footer {
+  margin: 40px 0 0 0;
+  width: 100%;
+  background: #24486B;
+  padding: 25px 0;
+  text-align: right;
+  border-top: 1px solid #219CD2;
+}
+footer nav {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+  footer nav ul li {
+    display: block !important;
+    float: left !important;
+    width: 31.25132% !important;
+    margin: 0 1.041% !important;
+    padding: 10px 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) and only screen and (min-width: 481px) and (max-width: 959px) {
+  footer nav ul li {
+    width: 47.91798%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) and only screen and (max-width: 480px) {
+  footer nav ul li {
+    width: 97.91796%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer nav ul li {
+    display: block !important;
+    float: left !important;
+    width: 47.91798% !important;
+    margin: 0 1.041% !important;
+    padding: 15px 0;
+  }
+}
+@media only screen and (max-width: 480px) and only screen and (min-width: 481px) and (max-width: 959px) {
+  footer nav ul li {
+    width: 47.91798%;
+  }
+}
+@media only screen and (max-width: 480px) and only screen and (max-width: 480px) {
+  footer nav ul li {
+    width: 97.91796%;
+  }
+}
+footer nav ul li a {
+  color: #f5f5f5;
+}
+footer img {
+  width: 100%;
 }

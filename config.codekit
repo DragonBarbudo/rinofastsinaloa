@@ -226,6 +226,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/dosisaltas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1573,
+		"inputAbbreviatedPath": "\/site\/img\/dosisaltas.png",
+		"outputAbbreviatedPath": "\/site\/img\/dosisaltas.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/drangel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184263,
+		"inputAbbreviatedPath": "\/site\/img\/drangel.png",
+		"outputAbbreviatedPath": "\/site\/img\/drangel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/galeria\/10a.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -662,6 +684,28 @@
 		"initialSize": 48928,
 		"inputAbbreviatedPath": "\/site\/img\/galeria\/9b.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/galeria\/9b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/inicio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60624,
+		"inputAbbreviatedPath": "\/site\/img\/inicio.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/inicio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/inicio_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90261,
+		"inputAbbreviatedPath": "\/site\/img\/inicio_2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/inicio_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
