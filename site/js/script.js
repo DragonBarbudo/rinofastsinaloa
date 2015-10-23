@@ -121,7 +121,10 @@ state('galeria');
 state('contacto');
 
 
-
+$('#video').waypoint(function(){
+  $('#video video').get(0).play();
+  console.log('video!');
+});
 
 
 }); // JQUERY END

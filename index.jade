@@ -37,6 +37,10 @@ include subsections.jade
             hr
             p Originado en 2011 como una rama de Rinofast México
     
+    section#video
+      video(width="100%", controls)
+        source(src="site/img/video.mp4", type="video/mp4")
+        source(src="site/img/video.ogv", type="video/off")
     
     
     
@@ -63,14 +67,8 @@ include subsections.jade
             | .
             
 
-    +sliderbg('#contactanos', 'site/img/contactanos_bg.jpg')
-    section#contactanos
-      .container
-        a(data-scroll, href="#contacto")
-          .col7.col-m12.contactanos(data-sr="enter left wait 0.5s") CONTÁCTANOS
-          .col5.col-m12.personalizada(data-sr="enter right scale down 400%")
-            P TU VALORACIÓN ES <br>
-              strong PERSONALIZADA
+    
+      
     section#experiencia
       .cristal
         .container
@@ -165,6 +163,14 @@ include subsections.jade
         
     +subsections
     
+    +sliderbg('#contactanos', 'site/img/contactanos_bg.jpg')
+    section#contactanos
+      .container
+        a(data-scroll, href="#contacto")
+          .col7.col-m12.contactanos(data-sr="enter left wait 0.5s") CONTÁCTANOS
+          .col5.col-m12.personalizada(data-sr="enter right scale down 400%")
+            P TU VALORACIÓN ES <br>
+              strong PERSONALIZADA
     
           
     +sliderbg('#beneficiosIMG', 'site/img/beneficios.jpg')
