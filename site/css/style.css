@@ -1811,3 +1811,47 @@ footer nav ul li a {
 footer img {
   width: 100%;
 }
+#galeria .slider {
+  margin-top: 60px;
+}
+.galerio {
+  display: block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+  position: relative;
+}
+.galerio img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+  border: 20px solid #cccccc;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.galerio .titleGal {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+  background: rgba(204, 204, 204, 0.9);
+  color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 0.9em;
+}

@@ -245,7 +245,30 @@ include subsections.jade
           h2 Galería Rinofast
       .container
         .slider.one
-          - for(var i = 1; i<21; i++ )
+          mixin galimg(letter, t1, t2)
+            - t1 = t1 || 'Antes'
+            - t2 = t2 || 'Después'
+            div: .container
+              .col6.col-m12: a(href="site/img/rinogal/#{letter}1.jpg", title=t1).box.galerio
+                img(src="site/img/rinogal/#{letter}1.jpg", alt=t1).w100
+                div.titleGal !{t1}
+              .col6.col-m12: a(href="site/img/rinogal/#{letter}2.jpg", title=t2).box.galerio
+                img(src="site/img/rinogal/#{letter}2.jpg", alt=t2).w100
+                div.titleGal !{t2}
+          
+          +galimg('a', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('b', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('c', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('d', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('e', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('f', 'Otoplastía<br>Antes', 'Otoplastía<br>Después')
+          +galimg('g', 'Blefaroplastía<br>Antes', 'Blefaroplastía<br>Después')
+          +galimg('h', 'Blefaroplastía<br>Antes', 'Blefaroplastía<br>Después')
+        
+        
+        
+        
+          //- for(var i = 1; i<21; i++ )
             div: .container
               .col6.col-m12: a(href="site/img/galeria/#{i}a.jpg", title="Antes").box: img(src="site/img/galeria/#{i}a.jpg", alt="Antes").w100
               .col6.col-m12: a(href="site/img/galeria/#{i}b.jpg", title="Después").box: img(src="site/img/galeria/#{i}b.jpg", alt="Después").w100
@@ -261,6 +284,7 @@ include subsections.jade
             p Cel. 044 66 72 300 876
             p
               a(href="mailto:dr.angel.loaiza@rinofastsinaloa.com.mx") dr.angel.loaiza@rinofastsinaloa.com.mx 
+              | | 
               a(href="mailto: rinofastculiacan@gmail.com")  rinofastculiacan@gmail.com
       .container.mapcont
         .col6.col-m12
