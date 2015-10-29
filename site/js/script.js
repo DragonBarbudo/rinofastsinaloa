@@ -122,8 +122,7 @@ state('contacto');
 
 
 $('#nosotros').waypoint(function(){
-  $('#video video').get(0).play();
-  console.log('video!');
+  //$('#video video').get(0).play();
 });
 
 

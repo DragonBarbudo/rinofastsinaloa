@@ -930,6 +930,116 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/rinogal\/i1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54685,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/i1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/i1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/i2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55708,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/i2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/i2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/j1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73182,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/j1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/j1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/j2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67262,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/j2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/j2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/k1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69137,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/k1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/k1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/k2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83133,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/k2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/k2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/l1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75424,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/l1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/l1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/l2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70920,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/l2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/l2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/m1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88150,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/m1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/m1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/m2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75673,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/m2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/m2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/role_bichectomia.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
