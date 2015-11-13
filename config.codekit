@@ -153,6 +153,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -703,20 +712,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 70442,
+		"initialSize": 66254,
 		"inputAbbreviatedPath": "\/site\/img\/rinogal\/s1.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/rinogal\/s1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/site\/img\/rinogal\/s2.jpg": {
+	"\/site\/img\/rinogal\/s22.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 66254,
-		"inputAbbreviatedPath": "\/site\/img\/rinogal\/s2.jpg",
-		"outputAbbreviatedPath": "\/site\/img\/rinogal\/s2.jpg",
+		"initialSize": 70442,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/s22.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/s22.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
