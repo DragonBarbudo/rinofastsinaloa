@@ -1467,7 +1467,7 @@ header.stuck .logo {
   color: #24486B;
 }
 #beneficios p {
-  color: #f5f5f5;
+  color: #24486B;
   margin: 30px 0;
   font-size: 1.2em;
 }
@@ -1834,7 +1834,7 @@ footer img {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   overflow: hidden;
-  border: 20px solid #cccccc;
+  border: 20px solid #dfdfdf;
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1845,7 +1845,7 @@ footer img {
   left: 0;
   bottom: 50px;
   width: 100%;
-  background: rgba(204, 204, 204, 0.9);
+  background: rgba(30, 60, 89, 0.9);
   color: #f5f5f5;
   text-align: center;
   padding: 10px;
@@ -1853,6 +1853,10 @@ footer img {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.galerio .titleGal div {
   font-weight: 300;
   font-size: 0.9em;
 }

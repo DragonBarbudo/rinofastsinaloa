@@ -875,6 +875,138 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/site\/img\/rinogal\/za1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51884,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/za1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/za1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/za2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60696,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/za2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/za2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/zb1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35961,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/zb1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/zb1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/zb2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34432,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/zb2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/zb2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/zc1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52699,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/zc1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/zc1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/zc2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50107,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/zc2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/zc2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/zd1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45942,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/zd1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/zd1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/zd2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39247,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/zd2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/zd2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/ze1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65206,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/ze1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/ze1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/ze2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55091,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/ze2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/ze2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/zf1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40263,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/zf1.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/zf1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/site\/img\/rinogal\/zf2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40190,
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/zf2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/zf2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/site\/img\/role_bichectomia.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

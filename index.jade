@@ -246,42 +246,46 @@ include subsections.jade
       .container
         .slider.one
           mixin galimg(letter, t1, t2)
-            - t1 = t1 || 'Antes'
-            - t2 = t2 || 'Después'
             div: .container
               .col6.col-m12: a(href="site/img/rinogal/#{letter}1.jpg", title=t1).box.galerio
                 img(src="site/img/rinogal/#{letter}1.jpg", alt=t1).w100
-                div.titleGal !{t1}
+                div.titleGal !{t1} <div>Antes</div>
               .col6.col-m12: a(href="site/img/rinogal/#{letter}2.jpg", title=t2).box.galerio
                 img(src="site/img/rinogal/#{letter}2.jpg", alt=t2).w100
-                div.titleGal !{t2}
+                div.titleGal !{t1} <div>Después</div>
           
-          +galimg('a', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('b', 'Blefaroplastía superior e inferior<br>Antes', 'Blefaroplastía superior e inferior<br>Después')
-          +galimg('c', 'Rinoplastía, Bichat, Mentón y Liposucción de papada<br>Antes', 'Rinoplastía, Bichat, Mentón y Liposucción de papada<br>Después')
-          +galimg('d', 'Liposucción de papada, Bichat, Rinoplastía<br>Antes', 'Liposucción de papada, Bichat, Rinoplastía<br>Después')
-          +galimg('e', 'Liposucción de papada, Bichat, Rinoplastía<br>Antes', 'Liposucción de papada, Bichat, Rinoplastía<br>Después')
-          +galimg('f', 'Otoplastía<br>Antes', 'Otoplastía<br>Después')
-          +galimg('g', 'Befaroplastía inferior<br>Antes', 'Befaroplastía inferior<br>Después')
-          +galimg('h', 'Befaroplastía inferior<br>Antes', 'Befaroplastía inferior<br>Después')
-          +galimg('i', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('j', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('k', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('l', 'Rinoplastía y blefaroplastia superior e inferior<br>Antes', 'Rinoplastía y blefaroplastia superior e inferior<br>Después')
-          +galimg('m', 'Rinoplastía y blefaroplastia superior e inferior<br>Antes', 'Rinoplastía y blefaroplastia superior e inferior<br>Después')
-          //+galimg('n', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('o', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('p', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('q', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('r', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('s', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('t', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('u', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('v', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
-          +galimg('w', 'Liposucción de papada<br>Antes, Mentoplastía<br>Antes', 'Liposucción de papada, Mentoplastía<br>Después') 
-          +galimg('x', 'Blefaroplastía inferior y superior<br>Antes', 'Blefaroplastía inferior y superior<br>Después') 
-          +galimg('y', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después') 
-          +galimg('z', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después') 
+          +galimg('a', 'Rinoplastía')
+          +galimg('b', 'Blefaroplastía superior e inferior')
+          +galimg('c', 'Rinoplastía, Bichat, Mentón y Liposucción de papada')
+          +galimg('d', 'Liposucción de papada, Bichat, Rinoplastía')
+          +galimg('e', 'Liposucción de papada, Bichat, Rinoplastía')
+          +galimg('f', 'Otoplastía')
+          +galimg('g', 'Befaroplastía inferior')
+          +galimg('h', 'Befaroplastía inferior')
+          +galimg('i', 'Rinoplastía')
+          +galimg('j', 'Rinoplastía')
+          +galimg('k', 'Rinoplastía')
+          +galimg('l', 'Rinoplastía y blefaroplastia superior e inferior')
+          +galimg('m', 'Rinoplastía y blefaroplastia superior e inferior')
+          //+galimg('n', 'Rinoplastía', 'Rinoplastía')
+          +galimg('o', 'Rinoplastía')
+          +galimg('p', 'Rinoplastía')
+          +galimg('q', 'Rinoplastía')
+          +galimg('r', 'Rinoplastía')
+          +galimg('s', 'Rinoplastía')
+          +galimg('t', 'Rinoplastía')
+          +galimg('u', 'Rinoplastía')
+          +galimg('v', 'Rinoplastía')
+          +galimg('w', 'Liposucción de papada, Mentoplastía') 
+          +galimg('x', 'Blefaroplastía inferior y superior') 
+          +galimg('y', 'Rinoplastía') 
+          +galimg('z', 'Rinoplastía') 
+          +galimg('za', 'Rinoplastía') 
+          +galimg('zb', 'Rinoplastía') 
+          +galimg('zc', 'Rinoplastía') 
+          +galimg('zd', 'Rinoplastía') 
+          +galimg('ze', 'Rinoplastía') 
+          +galimg('zf', 'Rinoplastía y Mentoplastía') 
 
           
     section#contacto

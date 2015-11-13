@@ -312,7 +312,7 @@ header{
     color:@main;
   }
   p{
-    color:@w;
+    color:@main;
     margin: 30px 0;
     font-size: 1.2em;
   }
@@ -580,19 +580,23 @@ footer{
   img{
     .border-radius(50%);
     overflow: hidden;
-    border: 20px solid @w/1.2;
+    border: 20px solid @w/1.1;
     .box-sizing(border-box);
   }
   .titleGal{
     position: absolute;
     left: 0; bottom: 50px;
     width: 100%;
-    background: fade(@w/1.2, 90%);
+    background: fade(@main/1.2, 90%);
     color:@w;
     text-align: center;
     padding: 10px;
     .box-sizing(border-box);
-    font-weight: 300;
+    font-weight: 500;
     font-size: 0.9em;
+    div{
+      font-weight: 300;
+      font-size: 0.9em;
+    }
   }
 }
