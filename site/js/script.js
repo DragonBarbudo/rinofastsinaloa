@@ -125,6 +125,10 @@ $('#nosotros').waypoint(function(){
   //$('#video video').get(0).play();
 });
 
+  $('#video').click(function(){
+    $('#video video').get(0).play();
+  });
+  
 
 }); // JQUERY END
 

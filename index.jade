@@ -41,7 +41,7 @@ include subsections.jade
             p Originado en 2011 como una rama de Rinofast México
     
     section#video
-      video(width="100%", controls)
+      video(width="100%", controls, poster="site/img/poster.jpg")
         source(src="site/img/video.mp4", type="video/mp4")
         source(src="site/img/video.ogv", type="video/off")
     
@@ -180,7 +180,7 @@ include subsections.jade
     section#beneficios
       #beneficiosIMG
         .container
-          .col12: h2 Beneficios
+          .col12: h2.toblue Beneficios
         .container  
           .col6.col-m12
             .icon.fa.fa-check(data-sr="enter top scale down 300%")
@@ -269,13 +269,20 @@ include subsections.jade
           +galimg('k', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
           +galimg('l', 'Rinoplastía y blefaroplastia superior e inferior<br>Antes', 'Rinoplastía y blefaroplastia superior e inferior<br>Después')
           +galimg('m', 'Rinoplastía y blefaroplastia superior e inferior<br>Antes', 'Rinoplastía y blefaroplastia superior e inferior<br>Después')
-        
-        
-        
-          //- for(var i = 1; i<21; i++ )
-            div: .container
-              .col6.col-m12: a(href="site/img/galeria/#{i}a.jpg", title="Antes").box: img(src="site/img/galeria/#{i}a.jpg", alt="Antes").w100
-              .col6.col-m12: a(href="site/img/galeria/#{i}b.jpg", title="Después").box: img(src="site/img/galeria/#{i}b.jpg", alt="Después").w100
+          //+galimg('n', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('o', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('p', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('q', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('r', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('s', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('t', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('u', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('v', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después')
+          +galimg('w', 'Liposucción de papada<br>Antes, Mentoplastía<br>Antes', 'Liposucción de papada, Mentoplastía<br>Después') 
+          +galimg('x', 'Blefaroplastía inferior y superior<br>Antes', 'Blefaroplastía inferior y superior<br>Después') 
+          +galimg('y', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después') 
+          +galimg('z', 'Rinoplastía<br>Antes', 'Rinoplastía<br>Después') 
+
           
     section#contacto
       .cristal
