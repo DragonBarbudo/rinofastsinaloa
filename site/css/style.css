@@ -1512,7 +1512,7 @@ header.stuck .logo {
   color: #888;
 }
 #comparativo .middle {
-  background: #24486B;
+  background: #219CD2;
 }
 #comparativo .middle td {
   text-align: center;
@@ -1859,4 +1859,24 @@ footer img {
 .galerio .titleGal div {
   font-weight: 300;
   font-size: 0.9em;
+}
+.vermasfotos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.vermasfotos a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background: #219CD2;
+  color: #f5f5f5;
+}
+.vermasfotos a i {
+  display: block;
+  font-size: 1.4em;
+  margin: 5px 0;
+}
+.vermasfotos a:hover {
+  background: #24486B;
 }
