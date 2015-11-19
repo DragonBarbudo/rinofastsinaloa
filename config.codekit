@@ -153,6 +153,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -710,13 +719,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/site\/img\/rinogal\/s22.jpg": {
+	"\/site\/img\/rinogal\/s2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 70442,
-		"inputAbbreviatedPath": "\/site\/img\/rinogal\/s22.jpg",
-		"outputAbbreviatedPath": "\/site\/img\/rinogal\/s22.jpg",
+		"inputAbbreviatedPath": "\/site\/img\/rinogal\/s2.jpg",
+		"outputAbbreviatedPath": "\/site\/img\/rinogal\/s2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1146,28 +1155,6 @@
 		"initialSize": 109073,
 		"inputAbbreviatedPath": "\/site\/img\/sobre.jpg",
 		"outputAbbreviatedPath": "\/site\/img\/sobre.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/site\/inicio.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 69373,
-		"inputAbbreviatedPath": "\/site\/inicio.jpg",
-		"outputAbbreviatedPath": "\/site\/inicio.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/site\/inicio_2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 83056,
-		"inputAbbreviatedPath": "\/site\/inicio_2.jpg",
-		"outputAbbreviatedPath": "\/site\/inicio_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
